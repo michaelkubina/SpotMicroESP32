@@ -1,0 +1,59 @@
+#######################################
+# Syntax Coloring Map For OV7670
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+OV7670	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+reset			KEYWORD2
+init			KEYWORD2
+setResolution	KEYWORD2
+setPCLK			KEYWORD2
+rewrCLKRC		KEYWORD2
+getLine			KEYWORD2
+getLines		KEYWORD2
+getFrame		KEYWORD2
+stop			KEYWORD2
+getMID			KEYWORD2
+getPID			KEYWORD2
+vflip			KEYWORD2
+setColor		KEYWORD2
+setGain			KEYWORD2
+getGain			KEYWORD2
+setAGC			KEYWORD2
+getAGC			KEYWORD2
+setAWB			KEYWORD2
+getAWB			KEYWORD2
+setAEC			KEYWORD2
+getAEC			KEYWORD2
+setBright		KEYWORD2
+getBright		KEYWORD2	
+setContrast		KEYWORD2
+getContrast		KEYWORD2
+setAWBB			KEYWORD2
+setAWBR			KEYWORD2
+setAWBG			KEYWORD2
+setExposure		KEYWORD2	
+setHStart		KEYWORD2		
+setVStart		KEYWORD2		
+getHStart		KEYWORD2
+getVStart		KEYWORD2
+colorbar		KEYWORD2
+colorbar_super	KEYWORD2
+wrReg			KEYWORD2
+rdReg			KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
