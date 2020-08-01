@@ -15,7 +15,7 @@ Both of these will be coming soon, as both goals have progress farther than 90% 
 - Photos
 - other things i forgot
 
-# SpotMicroESP32 - Parts
+# Parts
 This section gices an overview of all necessary parts and their compatibility to the original KDY0523-Spotmicro.
 
 ## Partlist
@@ -24,6 +24,9 @@ The SpotMicroESP32 uses parts, that where redesign from the ground. These are la
 ### Chassis
 
 [Inner Shoulder Thumbnail]:		https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/thumbs/Inner_Shoulder.png
+[Inner Shoulder STL](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/Inner_Shoulder.stl)
+[Inner Shoulder FreeCAD](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/Inner_Shoulder.FCStd)
+
 [Outer Shoulder Thumbnail]:		https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/thumbs/Outer_Shoulder.png
 [Chassis Side Thumbnail]:		https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/thumbs/Chassis_Side.png
 [Top Shoulder Thumbnail]:		https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/thumbs/Top_Shoulder.png
@@ -32,11 +35,11 @@ The SpotMicroESP32 uses parts, that where redesign from the ground. These are la
 
 | Thumbnail                                                             | Name                        | KDY0523-Spotmicro Compatibility | normal copies | mirrored copies | total amount |
 |-----------------------------------------------------------------------|-----------------------------|---------------------------------|---------------|-----------------|--------------|
-| ![Inner Shoulder Thumbnail][Inner Shoulder Thumbnail]                 | Inner Shoulder              |                              no | 2 | - | 2 |
+| ![Inner Shoulder Thumbnail][Inner Shoulder Thumbnail]                 | Inner Shoulder <br /> STL - [Inner Shoulder STL] <br /> FreeCAD - [Inner Shoulder FreeCAD] |                              no | 2 | - | 2 |
 | ![Outer Shoulder Thumbnail][Outer Shoulder Thumbnail]                 | Outer Shoulder              |                              no | 2 | - | 2 |
 | ![Chassis Side Thumbnail][Chassis Side Thumbnail]                     | Chassis Side                |                              no | 2 | - | 2 |
 | ![Top Shoulder Thumbnail][Top Shoulder Thumbnail]                     | Top Shoulder                |                              no | 2 | - | 2 |
-| ![Bottom Shoulder Thumbnail][Bottom Shoulder Thumbnail]               | Top Shoulder                |                              no | 2 | - | 2 |
+| ![Bottom Shoulder Thumbnail][Bottom Shoulder Thumbnail]               | Bottom Shoulder             |                              no | 2 | - | 2 |
 | ![Circuitboard Mount Template Thumbnail][Circuitboard Mount Template] | Circuitboard Mount Template |                              no | - | - | - |
 
 ### Hull
