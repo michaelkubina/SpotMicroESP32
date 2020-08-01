@@ -32,7 +32,7 @@ The SpotMicroESP32 uses parts, that where redesign from the ground. These are la
 
 | Thumbnail                                                             | Name                        | KDY0523-Spotmicro Compatibility | normal copies | mirrored copies | total amount |
 |-----------------------------------------------------------------------|-----------------------------|---------------------------------|---------------|-----------------|--------------|
-| ![Inner Shoulder Thumbnail][Inner Shoulder Thumbnail]                 | Inner Shoulder <br /> [Download STL](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/Inner_Shoulder.stl) <br /> [Download FreeCAD](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/Inner_Shoulder.FCStd) |                              no | 2 | - | 2 |
+| ![Inner Shoulder Thumbnail][Inner Shoulder Thumbnail]                 | Inner Shoulder <br /><br /> [STL](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/Inner_Shoulder.stl) <br /> [FreeCAD](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/Inner_Shoulder.FCStd) |                              no | 2 | - | 2 |
 | ![Outer Shoulder Thumbnail][Outer Shoulder Thumbnail]                 | Outer Shoulder              |                              no | 2 | - | 2 |
 | ![Chassis Side Thumbnail][Chassis Side Thumbnail]                     | Chassis Side                |                              no | 2 | - | 2 |
 | ![Top Shoulder Thumbnail][Top Shoulder Thumbnail]                     | Top Shoulder                |                              no | 2 | - | 2 |
