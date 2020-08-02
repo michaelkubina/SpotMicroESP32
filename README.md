@@ -1,5 +1,10 @@
+# Prologue
+I want to thank Deok-yeon Kim (KDY0523) for his beatiful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
+Him sharing the files with an open licence, made it possible to let it grow a community around it. This is why i want to reference to them as well - the SpotMicroAI Community: https://spotmicroai.readthedocs.io/en/latest/
+
 # SpotMicroESP32
 My take on a SpotMicro with an optimized design for supportfree 3D-printing utilizing an ESP32-DevKitC.
+You can find the 3D-printing parts on Thingiverse as well: https://www.thingiverse.com/thing:4559827/files
 
 ## Introduction
 This is a work-in-progress, with rather loose milestones. For 2020 there were only two goals
