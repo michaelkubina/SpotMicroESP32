@@ -9,7 +9,7 @@ This assembly is **not compatible** with the KDY0523-Spotmicro
 
 | Thumbnail | Name | normal copies | mirrored copies | total amount | infill | total weight |
 |-----------|------|---------------|-----------------|--------------|--------|--------------|
-| ![Inner Shoulder Thumbnail]					(https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Inner_Shoulder.png)					| Inner Shoulder					| 2 | - | 2 |  20% |  32g |
+| ![Inner Shoulder Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Inner_Shoulder.png)					| Inner Shoulder					| 2 | - | 2 |  20% |  32g |
 | ![Outer Shoulder Thumbnail]					(https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Outer_Shoulder.png)					| Outer Shoulder					| 2 | - | 2 |  20% |  32g |
 | ![Chassis Side Thumbnail]						(https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Chassis_Side.png)						| Chassis Side						| 2 | - | 2 |  20% |  22g |
 | ![Top Shoulder Thumbnail]						(https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Top_Shoulder.png)						| Top Shoulder						| 2 | - | 2 |  20% |  20g |
