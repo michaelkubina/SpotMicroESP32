@@ -40,7 +40,11 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | 19mm Push Button with LED					|  1x | illuminated pushbutton as external interrupt and single button input								| tested		| 10€		|
 | SKU7223 DC-DC 12A Stepdown Converter  	|  1x | step-down converter to lower your LiPo 2S voltage to 6V ***(better use an UBEC instead???)***		|**not tested** | 8€		|
 | 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				|**not tested** | 40€		|
-|											|	  |																										|				|			|
+
+### Miscellaneous
+
+| part or module | number | short description | status | estimated price | 
+|----------------|--------|-------------------|--------|:-------------------------|
 | M2x8 cylinderhead screws + M2 nuts		| 84x each | screws + nuts to mount your servohorns ***(you could glue the servohorns in place instead and save yourself 72x M2x8 screws and nuts, but i have not tested it)***, also used to mount the 1,77" TFT and the pins for the ball bearings 	| tested | 8€  |
 | M3x8 cylinderhead screws + M3 nuts		| 80x each | screws + nuts for the whole assembly ***(i hope i have not forgotten some, better buy in bulk as these are usefull for other projects as well)***																							| tested | 8€  |
 | M3x20 cylinderhead screws + M3 nuts		| 64x each | screws + nuts to mount your servos and assemble the upper legs																																												| tested | 12€ |
