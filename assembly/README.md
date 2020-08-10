@@ -44,7 +44,7 @@ Insert 4x M3 nuts into the small spaces in the lower leg counterpiece. Insert no
 
 ### Lower leg completed ###
 
-Insert 4x M3 nuts into the small spaces in the lower leg counterpiece. Insert now from above the servo into its pocket in the lower leg counterpiece. Now push both the lower leg counterpiece with the servo and the lower leg with the foot tip together, closing all gaps. Be careful not to loose any M3 nuts and screw both parts together with 4x M3x20 screws.
+Your assembled lower leg should look like this one. Repeat it once again for the second left lower leg and assemble the two mirrored (right-handed) right lower legs.
 
 ![004 - Lower Leg Complete](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/004_lower_leg_complete.png)
 
