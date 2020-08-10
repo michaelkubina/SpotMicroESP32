@@ -25,8 +25,9 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | part or module | number | short description | status | estimated price | 
 |----------------|--------|-------------------|--------|:-------------------------|
 | ESP32-DevKitC  							|  1x | the core MCU for the build with WIFI + BLE capabilities												| tested			| 7€		|
-| MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														|*mostly tested*	| 5€ each 	|
+| MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														| tested			| 5€ each 	|
 | FSH6S Servohorn 							| 12x | servohorn used for this build (should be already shipped with your servos) 							| tested 			| n.n. 		|
+| Rubber Dampeners for your Servos			| 48x | servo rubber dampeners, so you could use M3 screws (should be already shipped with your servos) 	| tested 			| n.n. 		|
 | Servocable Extension						|  4x | extending the servocables of the lower legs about 10cm to 15cm 										| tested			| 10€		|
 | 625ZZ Ball Bearing 						|  8x | miniature ball bearing without a flange 															| tested 			| 1€ each 	|
 | 5mm ~3V LEDs (White)						|  6x | LEDs used as your camera-lights																		| tested			| 1€		|
@@ -38,7 +39,7 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | HW-482 5V 10A Relais						|  1x | relais module to cut the power to your servos completely											| tested			| 3€		|
 | 1,77" TFT with ST7735 w/o SD				|  1x | small TFT screen with ST7735 IC for status informations												| tested			| 7€		|
 | 19mm Push Button with LED					|  1x | illuminated pushbutton as external interrupt and single button input								| tested			| 10€		|
-| SKU7223 DC-DC 12A Stepdown Converter  	|  1x | step-down converter to lower your LiPo 2S voltage to 6V ***(better use an UBEC instead???)***		|*partially tested* | 8€		|
+| XL4016 DC-DC 12A Stepdown Converter  		|  1x | step-down converter to lower your LiPo 2S voltage to 6V ***(better use an UBEC instead???)***		|*partially tested* | 8€		|
 | 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				|**not tested** 	| 40€		|
 
 ### Miscellaneous
