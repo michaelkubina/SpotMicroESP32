@@ -14,15 +14,15 @@ This is a work-in-progress, with rather loose milestones. For 2020 there were on
 Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, idead, forks and what else comes to your mind.
 
 ## Sections
-* [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/README.md)
+* [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/)
 * [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/#bill-of-material)
-* [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/README.md)
+* [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/)
 
 ## Bill of Material
 The following Section will describe in detail the different parts needed for your own SpotMicroESP32 build, with at least some rough estimate of the price.
 
 ### 3D-Printing
-To build your own SpotMicroESP32 you will need to print a lot parts. For an overview of the 3D printed parts needed, please visit the [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/README.md). It might be necessary to remix some of the templates to suit your needs, when chosing other electronic components than those listet here.
+To build your own SpotMicroESP32 you will need to print a lot parts. For an overview of the 3D printed parts needed, please visit the [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/). It might be necessary to remix some of the templates to suit your needs, when chosing other electronic components than those listet here.
 
 ### Electronics
 The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change as well. There are still some parts missing and some others are not tested yet - those status will be marked as such. I will give a rough price estimate, which may or may not work for you and might be out of date at some point.
