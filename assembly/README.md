@@ -10,19 +10,21 @@ You need to make two identical lower legs each for both sides - this means, that
 
 ### Parts ###
 
-* 4x MG996R at 90°
-* 16x Servo rubber dampeners (should be shipped with your servo)
-
-* 4x lower leg (2x right-handed, 2x left-handed)
-* 4x lower leg counterpiece (2x right-handed, 2x left-handed)
-* 4x ball bearing pin
-* 4x foot tips
-
-* 6x M3 nuts
-* 4x M3x20
-* 2x M3x8
-* 1x M2 nut
-* 1x M2x8
+| Total Amount | Part |
+|--------------|------|
+|  4x | MG996R (2x at 0° and 2x at 180°) |
+| 16x | Servo rubber dampeners (should be shipped with your servo) |
+|  |  |
+|  4x | lower leg (2x right-handed, 2x left-handed) |
+|  4x | lower leg counterpiece (2x right-handed, 2x left-handed) |
+|  4x | ball bearing pin |
+|  4x | foot tips |
+|  |  |
+| 24x | M3 nuts |
+| 16x | M3x20 |
+|  8x | M3x8 |
+|  4x | M2 nuts |
+|  4x | M2x8 |
 
 ### Lower leg and foot tip ###
 
