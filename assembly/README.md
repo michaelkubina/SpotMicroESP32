@@ -51,5 +51,35 @@ Your assembled lower leg should look like this one. Repeat it once again for the
 ![004 - Lower Leg Complete](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/004_lower_leg_complete.png)
 
 ## Upper Leg ##
+You need to make two identical upper legs each for both sides - this means, that you need two mirrored pieces for the upper leg bottom shell, upper leg top shell, servohorn mount and ball bearing mount.
 
-to be continued...
+### Parts ###
+
+** you might use only two M2x8 on each leg to screw the servohorn into place and thus reducing the amount of M2x8 screws and M2 nuts by 2/3 **
+
+| Total Amount | Part |
+|--------------|------|
+|  4x | MG996R at 90° |
+| 16x | Servo rubber dampeners (should be shipped with your servo) |
+|  4x | 625zz ball bearings without flange|
+|  |  |
+|  4x | upper leg top shell (2x right-handed, 2x left-handed) |
+|  4x | upper leg bottom shell (2x right-handed, 2x left-handed) |
+|  4x | servohorn mount (2x right-handed, 2x left-handed) |
+|  4x | ball bearing mount (2x right-handed, 2x left-handed) |
+|  |  |
+| 32x | M3 nuts |
+| 32x | M3x20 |
+|  4x | M3x8 |
+| 24x | M2 nuts |
+| 24x | M2x8 |
+
+### Servohorn mount ###
+
+You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. Screw the servohorn into place, using the middle hole on each little arm.
+
+![005 - Servohorn & Servohornmount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/005_servohornmount_pre.png)
+
+![005 - Servohorn & Servohornmount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/005_servohornmount_post.png)
+
+## to be continued... ##
