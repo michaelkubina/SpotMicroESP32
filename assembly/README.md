@@ -58,7 +58,9 @@ You need to make two identical upper legs each for both sides - this means, that
 ### Parts ###
 
 **you might use only two M2x8 on each leg to screw the servohorn into place and thus reducing the amount of M2x8 screws and M2 nuts by 2/3**
+
 **if you have M2x6 then use these instead of the M2x8 which are only in use, because it was easier to buy the screws and nuts in bulk**
+
 **use the long version of the servohorn & ballbearing mount for improved resting position of the legs or stick to the normal version true to KDY-0523's design for the legs being at an angle when resting**
 
 | Total Amount | Part |
@@ -82,7 +84,7 @@ You need to make two identical upper legs each for both sides - this means, that
 
 ### Servohorn mount ###
 
-You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. Screw the servohorn into place, using the middle hole on each little arm. Make sure that the two arms of the servohorn are perfectly perpendicular and which arm was on top. This is because the teeth are not an even number and by this not symmetrical. 
+You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. **You might consider using M2x6 instead and ditch the need for M2 nuts here completly.** Screw the servohorn into place, using the middle hole on each little arm. Make sure that the two arms of the servohorn are perfectly perpendicular to the lower leg, when mounted to the servogear at 0° resp 180° (depending which leg) and which arm was on top then. This is because the teeth are not an even number and by this not symmetrical which would either result in a gap between the lower and upper leg when resting or in the worst case, the servo could not rest in 0° or 180° position and always stutter thus pulling more current. 
 
 ![005 - Servohorn & Servohornmount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/005_servohornmount_pre.png)
 
