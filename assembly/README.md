@@ -2,7 +2,7 @@
 This document describes the assembly process for the SpotMicroESP32. There are some prerequisites to make, before you can begin with the assembly of your printed parts and before you can mount your parts into place. Make sure you have the necessary parts from the [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/). You will need at least the screws and nuts from the [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/blob/master/).
 
 ## Prerequisites ##
-The single most important thing is to test and to calibrate your servos. By calibration i mean to determin the minimum and maximum positions, and what dutycicle results in what actual angle. Don't use any servos, that behave weird in any way, such as: stuttering, grinding noises, clicking noises or which wont turn at least full 180° - you would regret it afterwards and will have to do a lot of disassembling stuff to get it straight. At last it is important, that you position each servo in it's 90° position.
+The single most important thing is to test and to calibrate your servos. By calibration i mean to determin the minimum and maximum positions, and what dutycicle results in what actual angle. Don't use any servos, that behave weird in any way, such as: stuttering, grinding noises, clicking noises or which wont turn at least full 180° - you would regret it afterwards and will have to do a lot of disassembling stuff to get it straight. At last it is important, that you position each servo into a specific position, which will be named in the parts-list in each major step. Depending on where it should be mountet, it results in 2x 0° 2x 60°, 2x 120°, 2x 180° and 4x 90°. Make sure you add all the rubber dampeners to your servos, so you could fit the M3 through the mounting holes.
 If you wish to use fabric hoses, make sure you use the smallest and thinest possible. There is just not enough space in these parts to use thick ones. Or simply go with the standard servocable, which could look pretty nice, depending on your color theme.
 
 ## Lower Leg ##
@@ -65,7 +65,7 @@ You need to make two identical upper legs each for both sides - this means, that
 
 | Total Amount | Part |
 |--------------|------|
-|  4x | MG996R at 90° |
+|  4x | MG996R at 2x 60° and 2x 120°|
 | 16x | Servo rubber dampeners (should be shipped with your servo) |
 |  4x | 625zz ball bearings without flange|
 |  |  |
@@ -170,4 +170,95 @@ For the robots normal standing position the lower legs servo is at 90° while th
 
 ![012 - Completion of the Upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/012_completion_post_standing_sideview.png)
 
+## Shoulder Joint ##
+
+You need to make two identical Shoulder Joints for both sides - this means, that you need two mirrored pieces for the Shoulder Joint Servomount. This time instead of mounting both on the right or left, each the left and right side will have one of the mirrored pieces.
+
+### Parts ###
+
+**you might use only two M2x8 on each servohorn cap to screw the servohorn into place and thus reducing the amount of M2x8 screws and M2 nuts by 2/3**
+
+**if you have M2x6 then use these instead of the M2x8 which are only in use, because it was easier to buy the screws and nuts in bulk**
+
+| Total Amount | Part |
+|--------------|------|
+|  4x | MG996R at 90° |
+| 16x | Servo rubber dampeners (should be shipped with your servo) |
+|  |  |
+|  |  |
+|  4x | Shoulderjoint Servomount (2x right-handed, 2x left-handed) |
+|  4x | Shoulderjoint Servohorn Cap |
+|  4x | ball bearing Pin |
+|  |  |
+|  |  |
+| 36x | M3 nuts |
+| 16x | M3x20 |
+| 20x | M3x8 |
+| 24x | M2 nuts |
+| 24x | M2x8 |
+
+### Servohorn Cap Preparation ###
+
+You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. **You might consider using M2x6 instead and ditch the need for M2 nuts here completly.** Screw the servohorn into place, using the middle hole on each little arm.
+
+![013 - Servohorn Cap Preparation](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/013_servohorncap_pre.png)
+
+![013 - Servohorn Cap Preparation](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/013_servohorncap_post.png)
+
+### Attach Ballbearing Pin to Servomount ###
+
+Insert 1x M2 nut into the small space in the Shoulderjoint Servomount. Screw 1x M2x8 through the ball bearing pin and attach it to the Shoulderjoint Servomount.
+
+![014 - Attach Ballbearing Pin to Servomount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/014_shoulderpin_pre.png)
+
+![014 - Attach Ballbearing Pin to Servomount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/014_shoulderpin_post.png)
+
+### Attach Servohorn Cap to Servomount ###
+
+Now insert 4x M3 nuts into to pockets in the base of the Servomount and screw the Servohorn Cap with 4x M3x8 into place.
+
+![015 - Attach Servohorn Cap to Servomount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/015_servocap_servomount_pre.png)
+
+![015 - Attach Servohorn Cap to Servomount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/015_servocap_servomount_post.png)
+
+![015 - Attach Servohorn Cap to Servomount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/015_servocap_servomount_post_solid_front.png)
+
+![015 - Attach Servohorn Cap to Servomount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/015_servocap_servomount_post_solid_back.png)
+
+### Attach Shoulder Joint to upper Leg ###
+
+For the robots normal standing position the lower legs servo is at 90° while the upper legs servo is at 120° (left legs) or 60° (right legs), depending which leg. Make sure you have actually positioned your servos correctly before, **otherwise you should do the movement befor assembling further**. When mounting the Shoulder Joint you wont align it to the upper leg along the upper star, but along the first to the right (left legs) resp. first to the left (right legs). Since the servohorn has six arms, each arm means an increase of 60°. For the left legs use this picture as an orientation.
+
+![016 - Attach Shoulder Joint to upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/016_shoulder_joint_leg_angles.png)
+
+The assembly is straight forward. Take an M3x8 screw and screw the assembled shoulder joint into place, as mentioned above. It is intentional, that the upper leg wont move between both horizontal endpoints, but instead could retract the leg further to the back than to the front.
+
+![016 - Attach Shoulder Joint to upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/016_shoulder_joint_leg_pre.png)
+
+![016 - Attach Shoulder Joint to upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/016_shoulder_joint_leg_post.png)
+
+![016 - Attach Shoulder Joint to upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/016_shoulder_joint_leg_post_sideview.png)
+
+### Attach Servo to Shoulder Joint ###
+
+Make sure the servos you want to place are at 90°. Place 4x M3 nuts into the pockets for mounting the servo. Place the servo now into its pocket and screw it into place with 4x M3x20.
+
+![017 - Attach Servo to Shoulder Joint](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/017_shoulder_joint_servomount_servo_pre.png)
+
+![017 - Attach Servo to Shoulder Joint](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/017_shoulder_joint_servomount_servo_mid.png)
+
+![017 - Attach Servo to Shoulder Joint](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/017_shoulder_joint_servomount_servo_post.png)
+
+### Shoulder Joint Completed ###
+
+You have now succesfully attached the Shoulder Joint to the upper leg. With this you have now completed the front left leg. Repeat the steps for the other 3 legs and make sure you use the mirrored parts when building the right legs and the left legs. **And keep in mind, that the shoulder joint uses the mirrored parts for the front or rear leg on both sides!**
+
+![018 - Shoulder Joint Completed](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/018_shoulder_joint_complete.png)
+
+![018 - Shoulder Joint Completed](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/018_shoulder_joint_complete_sideview.png)
+
 ## to be continued... ##
+
+In the next part of this Assembly Guide i will post an overview of all for fully assembled legs. Making this takes a bit of extra time, because i have to assemble the 3D-Models of all for legs the same way i did it for this one single leg in this guide. I can save myself some time by not needing to mirror all pieces, but only those that should be mirrored. 
+
+I hope i would even be able to describe the assembly of the Shoulders and the Chassis...if i dont, then this will come definitly next.
