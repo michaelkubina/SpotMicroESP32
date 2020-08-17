@@ -1,6 +1,7 @@
 # SpotMicroESP32
-My take on a SpotMicro with an optimized design for supportfree 3D-printing utilizing an ESP32-DevKitC.
+My take on a SpotMicro with an optimized design for supportfree 3D-printing utilizing an ESP32-DevKitC. This is still a Work-in-Progress!
 You can find the 3D-printing parts on Thingiverse as well: https://www.thingiverse.com/thing:4559827/files
+Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)
 
 ## Note of thanks
 I want to thank Deok-yeon Kim (KDY0523) for his beatiful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
@@ -11,7 +12,16 @@ This is a work-in-progress, with rather loose milestones. For 2020 there were on
 - to redesign the original parts, so that they could be printed without any support
 - to make a circuitry for all sensors and parts, that possibly would fit and be considere necessary
 
-Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, idead, forks and what else comes to your mind.
+Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, idead, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
+
+## Coming soon...
+- ~~STLs and FreeCAD-Files~~
+- Mountingplate for the ciruitry - FreeCAD and STL (in progress)
+- [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/) (in progress)
+- more Template FreeCAD-Files for your own modifications
+- KiCAD or Fritzing circuit diagrams
+- Photos
+- other things i forgot
 
 ## Sections
 * [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/)
@@ -56,10 +66,3 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | M3x20 cylinderhead screws + M3 nuts		| 64x each | screws + nuts to mount your servos and assemble the upper legs																																												| tested | 12€ |
 | lots of cables and connectors and stuff	|          | it's up to you which cables or wires and connectors you want to use, or if you would like to solder everything into place, and if you use heat shrinks, fabric hoses 																		| up to you | 20€ |
 | PLA + TPU (***?***)						|          | you will need about 1Kg of PLA + some grams of TPU (eg. my Black/White design: 500g for the covers + upper legs, 500g for the chassis + lower legs + shoulder joints, some small grams for the grey sensorplate in the head) + some grams of TPU for the foottips | tested | 30€+ |
-
-## Coming soon...
-- ~~STLs and FreeCAD-Files~~
-- more Template FreeCAD-Files for your own modifications
-- KiCAD or Fritzing circuit diagrams
-- Photos
-- other things i forgot
