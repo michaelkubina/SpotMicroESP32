@@ -257,8 +257,48 @@ You have now succesfully attached the Shoulder Joint to the upper leg. With this
 
 ![018 - Shoulder Joint Completed](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/018_shoulder_joint_complete_sideview.png)
 
-## to be continued... ##
+# just a quick draft #
 
-In the next part of this Assembly Guide i will post an overview of all for fully assembled legs. Making this takes a bit of extra time, because i have to assemble the 3D-Models of all for legs the same way i did it for this one single leg in this guide. I can save myself some time by not needing to mirror all pieces, but only those that should be mirrored. 
+I will be on vacation for the next couple of days, so heres just a quick update with images only. I will write all the details like in the steps befor once i am back home. But for the next steps you actually only need the right screws (either m2x8 or m3x8), the corresponding nuts and four ball bearing.
 
-I hope i would even be able to describe the assembly of the Shoulders and the Chassis...if i dont, then this will come definitly next.
+Take a look at how the front and rear legs should be like once completed. And **the template for the circuitboard (in orange) is just a placeholder for now**. This is the only part i havent designed yet, but its a priority now.
+
+![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_left_legs.png)
+
+![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_right_legs.png)
+
+![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_all_legs.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_pre.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_post.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_pre.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_mid.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_post.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_rear_outer_shoulder_rear_legs_post.png)
+
+![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Outer_Shoulders_complete.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_pre.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_mid.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_post.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_pre.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_post.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_pre.png)
+
+![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_post.png)
+
+![022](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_and_legs_pre_preview.png)
+
+![022](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_and_legs_post_preview.png)
