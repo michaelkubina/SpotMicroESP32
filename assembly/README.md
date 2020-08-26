@@ -1,5 +1,7 @@
 ﻿# Assembly #
-This document describes the assembly process for the SpotMicroESP32. There are some prerequisites to make, before you can begin with the assembly of your printed parts and before you can mount your parts into place. Make sure you have the necessary parts from the [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/). You will need at least the screws and nuts from the [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/blob/master/).
+This document describes the assembly process for the SpotMicroESP32. There are some prerequisites to make, before you can begin with the assembly of your printed parts and before you can mount your parts into place. Make sure you have the necessary parts from the [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/). You will need at least the screws and nuts from the [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32#bill-of-material).
+
+**Important! Read the assembly guide at least once, so you are familiar with when to use mirrored parts or which servo should be mounted with which actual gear-position.**
 
 ## Prerequisites ##
 The single most important thing is to test and to calibrate your servos. By calibration i mean to determin the minimum and maximum positions, and what dutycicle results in what actual angle. Don't use any servos, that behave weird in any way, such as: stuttering, grinding noises, clicking noises or which wont turn at least full 180° - you would regret it afterwards and will have to do a lot of disassembling stuff to get it straight. At last it is important, that you position each servo into a specific position, which will be named in the parts-list in each major step. Depending on where it should be mountet, it results in 2x 0° 2x 60°, 2x 120°, 2x 180° and 4x 90°. Make sure you add all the rubber dampeners to your servos, so you could fit the M3 through the mounting holes.
@@ -65,9 +67,10 @@ You need to make two identical upper legs each for both sides - this means, that
 
 | Total Amount | Part |
 |--------------|------|
-|  4x | MG996R at 2x 60° and 2x 120°|
+|  4x | MG996R at 2x 60° and 2x 120° |
 | 16x | Servo rubber dampeners (should be shipped with your servo) |
-|  4x | 625zz ball bearings without flange|
+|  4x | FSH6S Servohorn |
+|  4x | 625zz ball bearings without flange |
 |  |  |
 |  |  |
 |  4x | upper leg top shell (2x right-handed, 2x left-handed) |
@@ -184,6 +187,7 @@ You need to make two identical Shoulder Joints for both sides - this means, that
 |--------------|------|
 |  4x | MG996R at 90° |
 | 16x | Servo rubber dampeners (should be shipped with your servo) |
+|  4x | FSH6S Servohorn |
 |  |  |
 |  |  |
 |  4x | Shoulderjoint Servomount (2x right-handed, 2x left-handed) |
@@ -257,48 +261,123 @@ You have now succesfully attached the Shoulder Joint to the upper leg. With this
 
 ![018 - Shoulder Joint Completed](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/018_shoulder_joint_complete_sideview.png)
 
-# just a quick draft #
+### Overview of all of the four legs ###
 
-I will be on vacation for the next couple of days, so heres just a quick update with images only. I will write all the details like in the steps befor once i am back home. But for the next steps you actually only need the right screws (either m2x8 or m3x8), the corresponding nuts and four ball bearing.
-
-Take a look at how the front and rear legs should be like once completed. And **the template for the circuitboard (in orange) is just a placeholder for now**. This is the only part i havent designed yet, but its a priority now.
+With the front left (FL) leg finished, rebuild the rear left (RL) leg with the same steps. But this time use the mirrored shoulder joint piece instead. The picture below shows both legs, where the only difference is the direction the servo in the shoulder joint is facing. Both gears should face outwards towards the nose or back of the robot.
 
 ![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_left_legs.png)
 
+The same applies to the front right (FR) and rear right (RR) leg, with both servo gears facing outwards. Use for the right sided legs also the mirrored copies of the lower and upper leg parts. Keep in mind, that you have set the right angles for your servos prior to assembly, with the servos in the shoulder joint being at 90°, the servos in the upper legs at 60° and the servos in the lower legs at 0°.
+
 ![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_right_legs.png)
 
+When all of your legs are assembled the should look like this, with the front legs shoulder servos gears facing to the front of the robot and the rear shoulder servos facing backwards.
+
 ![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_all_legs.png)
+
+## Connecting to the Shoulders ##
+
+**you might use only two M2x8 on each servohorn cap to screw the servohorn into place and thus reducing the amount of M2x8 screws and M2 nuts by 2/3**
+
+**if you have M2x6 then use these instead of the M2x8 which are only in use, because it was easier to buy the screws and nuts in bulk**
+
+| Total Amount | Part |
+|--------------|------|
+|  4x | FSH6S Servohorn |
+|  |  |
+|  |  |
+|  2x | Outer Shoulder |
+|  |  |
+|  |  |
+|  4x | M3x8 |
+| 24x | M2 nuts |
+| 24x | M2x8 |
+
+Screw the servohorns to the outer shoulder piece with twelve M2x8 screws and nuts.
 
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_pre.png)
 
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_post.png)
 
+### Front & Rear Legs ###
+
+Screw the front legs to the outer shoulder using two M3x8 screws. Make sure the servos in the shoulder joints are at 90° and that the arms of the servohorn are perfectly perpendicular.
+
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_pre.png)
 
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_mid.png)
+
+Repeat this for the rear legs as well, so that both outer shoulder pieces face outwards.
 
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_post.png)
 
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_rear_outer_shoulder_rear_legs_post.png)
 
+The front and rear legs with the shoulder should look like this.
+
 ![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Outer_Shoulders_complete.png)
 
+## Body ##
+
+| Total Amount | Part |
+|--------------|------|
+|  4x | 625zz ball bearings without flange |
+|  |  |
+|  |  |
+|  2x | Inner Shoulder |
+|  2x | Top Shoulder |
+|  2x | Bottom Shoulder |
+|  2x | Chassis Side |
+|  1x | Circuitry Mountingplate **(still in development)** |
+|  |  |
+|  |  |
+| 24x | M3 nuts |
+| 24x | M2x8 |
+
+### Inner Shoulders ###
+
+Add into each the top and bottom shoulder block two M3 nuts. Make sure you have oriented the blocks the right way, so that the pockets for the nuts that will be used to hold the covers are facing into the body.
+
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_pre.png)
+
+Screw the inner shoulder with four M3x8 screws into place, so that the screwsheads will sink into their pockets.
 
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_mid.png)
 
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_post.png)
 
+### Chassis ###
+
+Take the chassis side piece and place four M3 nuts into their pockets - the flat side should face outwards and the long cutout for the circuitry mountingplate should be at the bottom. **Currently the circuitry mountingplate is in development - the orange piece is just a placeholder and actually the template piece, if someone wants to design their own**
+
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides.png)
+
+Put your ***(pre-populated ???)*** circuitry mountingplate between both sides.
 
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_pre.png)
 
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_post.png)
 
+Now attach both inner shoulders to it with each four M3x8 screws and the bigger blocks being at the top.
+
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_pre.png)
+
+The assembled chassis should look like this.
 
 ![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_post.png)
 
+Add now the four ball bearings to each shoulder joint and screw the assemblies with four M3x8 screws and nuts each together.
+
 ![022](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_and_legs_pre_preview.png)
 
+You have now the basic framework for your robot.
+
 ![022](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_and_legs_post_preview.png)
+
+
+# what's next? #
+
+I am currently designing the circuitry mountingplate and will certainly do some test-prints and improvements befor i release it. Once it's ready i will add the steps necessary as a separate sections in the chassis part.
+
+The real next step will be ** the assembly of the head with all the electronics**. I will design some dummies for the ultrasonic-sensors, the camera and the LEDs as well, so that each part has some representation in the finished model.
+Furthermore i want to adress some shortcomings in this guide. I want to replace all images, where the rubber dampeners are missing (mea culpa) and i want to make it more clear, which servo has to be at which angle for assembly.
