@@ -1,9 +1,12 @@
 # SpotMicroESP32
+
 My take on a SpotMicro with an optimized design for supportfree 3D-printing utilizing an ESP32-DevKitC. This is still a Work-in-Progress!
 
 You can find the 3D-printing parts on Thingiverse as well: https://www.thingiverse.com/thing:4559827/files
 
 Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)
+
+![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
 
 ## Note of thanks
 I want to thank Deok-yeon Kim (KDY0523) for his beatiful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
@@ -30,6 +33,9 @@ Both of these will be coming soon, as both goals have progress farther than 90% 
 * [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/)
 * [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/#bill-of-material)
 * [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/)
+* [Electronics](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/) - currently a dummy link
+* [Programming](https://github.com/michaelkubina/SpotMicroESP32/blob/master/code/)
+* [Inverse Kinematics](https://github.com/michaelkubina/SpotMicroESP32/blob/master/kinematics/)
 
 ## Bill of Material
 The following Section will describe in detail the different parts needed for your own SpotMicroESP32 build, with at least some rough estimate of the price.

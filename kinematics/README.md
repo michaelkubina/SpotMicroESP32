@@ -21,6 +21,6 @@ The foot-tip actually just elevates the body 20mm from the ground on every leg a
 
 
 ## The body ##
-The body (the plane where the four legs are attached to) is 78mm * 207,5mm. The axis of the front and rear leg-pairs are 78mm apart, while the center of the first rotational axis of the legs is 207,5mm apart. The 207,5mm are the sum of the chassis side (150mm), both inner shoulders (each 5mm thick) and two times the halfes of the bottom/top shoulder blocks (2 * 23,75mm = 47,5mm).
+The body (the plane where the four legs are attached to) is 78mm \* 207,5mm. The axis of the front and rear leg-pairs are 78mm apart, while the center of the first rotational axis of the legs is 207,5mm apart. The 207,5mm are the sum of the chassis side (150mm), both inner shoulders (each 5mm thick) and two times the halfes of the bottom/top shoulder blocks (2 \* 23,75mm = 47,5mm).
 
 ![Body](https://github.com/michaelkubina/SpotMicroESP32/blob/master/kinematics/body.png)

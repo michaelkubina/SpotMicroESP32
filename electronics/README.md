@@ -1,20 +1,9 @@
-# SpotMicroESP32 - Electronics
-This section describes the used electronics and the wiring of the circuitry in detail.
+﻿# Electronics #
 
-## Bill of Material
-The SpotMicroESP32 has a rather large BOM, mainly because I wanted to integrate as much usefull parts, for either enabling the robot for specific future tasks or to provide myself with interesting programming tasks as well.
+**Work-in-Progress : still a lot to do**
 
-This being said, the following table has one column indicating the parts necessary and one column for the parts which represent additional goals.
+![Circuitry Milestone](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/circuitry_working.jpg)
 
-| Model 	| Basic 	| Extended 	| Usage 		|Price (per unit)|Price (total)		|
-|-----------|----------:|----------:|---------------|----------------|------------------|
-| MG996R 	|       12x |       12x | servos        |
-| PCA9685 	|	     1x |        1x | servo and LED driver |
-|			|			|			|			|			|			|			|
+## Resources ##
 
-
-## MG996R
-- STLs and FreeCAD-Files
-- KiCAD or Fritzing circuit diagrams
-- Photos
-- other things i forgot
+Currently there is only a excel-sheet in this sections, which describes the basic pin-layout. Don't power all of your modules through the 3.3V or 5V of the ESP32 - the current will be too high. Use external power supplies and share common ground.
