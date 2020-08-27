@@ -1,5 +1,5 @@
 ﻿# Parts
-This section gices an overview of all necessary parts and their compatibility to the original KDY0523-Spotmicro. For the assembly please read the [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/). You will need at least the screws and nuts from the [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/blob/master/).
+This section gices an overview of all necessary parts and their compatibility to the original KDY0523-Spotmicro. For the assembly please read the [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/). You will need at least the screws and nuts from the [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/#bill-of-material).
 
 ## Partlist
 The SpotMicroESP32 uses parts, that where redesign from the ground. These are largely incompatible to the original KDY0523-Spotmicro - meaning they are as an assembly not interchangable. This is due to some design decisions, that include the ability to print without support, using less different screw sizes and repositioning screwholes or altering dimensions to achive a more convenient and fluid design. The following list will not only provide informations about the total amount of prints needed (including the amount of mirrored copies), but if its compatible with the original KDY0523-Spotmicro and how many mirrored copies you would need of it.
@@ -28,12 +28,16 @@ This assembly is compatible with the KDY0523-Spotmicro
 ### Leg
 This assembly is compatible with the KDY0523-Spotmicro
 
+**Important note**
+You should use the "long version", which will result in the legs being fully bend when the robot is in its resting position. The upper and lower leg will be parallel in the end.
+The "normal version" copies the dimensions of the original design, which results in the legs not being able to fully collapse. This means the legs will always look like an angle bracket in the end. Maybe with some force you could damage some parts as well, because theoretically you would be able to "overbend" the joint.
+
 | Thumbnail | Name | normal copies | mirrored copies | total amount | infill | total weight |
 |-----------|------|---------------|-----------------|--------------|--------|--------------|
 | ![Limb Top Shell Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Top_Shell.png)									| Limb Top Shell					| 2 | 2 | 4 |  20% |  92g |
 | ![Limb Bottom Shell Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Bottom_Shell.png)								| Limb Bottom Shell Thumbnail		| 2 | 2 | 4 |  20% | 100g |
-| ![Limb Ball Bearing Mount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Ball_Bearing_Mount_long_v4.png)			| Limb Ball Bearing Mount			| 2 | 2 | 4 |  20% |  20g |
-| ![Limb Servohorn Mount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Servohorn_Mount_long_v4.png)				| Limb Servohorn Mount				| 2 | 2 | 4 |  20% |  20g |
+| ![Limb Ball Bearing Mount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Ball_Bearing_Mount_long_v4.png)			| Limb Ball Bearing Mount **long**	| 2 | 2 | 4 |  20% |  20g |
+| ![Limb Servohorn Mount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Servohorn_Mount_long_v4.png)				| Limb Servohorn Mount **long**		| 2 | 2 | 4 |  20% |  20g |
 | ![Wrist Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Wrist.png)														| Wrist								| 2 | 2 | 4 |  20% | 104g |
 | ![Wrist Counterpart Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Wrist%20_Counterpart.png)							| Wrist Counterpart					| 2 | 2 | 4 |  20% |  36g |
 | ![Shoulder Joint Ball Bearing Pin Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Shoulder_Joint_Ball_Bearing_Pin.png)	| Shoulder Joint Ball Bearing Pin	| 4 | - | 4 |  20% |   4g |
