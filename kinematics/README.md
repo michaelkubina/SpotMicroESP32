@@ -6,10 +6,10 @@
 
 The length-measurements of the legs is performed on the centers of the rotational axis and from the perspective of the foottip touching the ground in its center.
 
-*L1: 10mm
-*L2: 60,5mm
-*L3: 111,1mm (resp. L3a: 107mm / L3b: 30mm)
-*L4: 118,5mm
+* L1: 10mm
+* L2: 60,5mm
+* L3: 111,1mm (resp. L3a: 107mm / L3b: 30mm)
+* L4: 118,5mm
 
 The foot-tip actually just elevates the body 20mm from the ground on every leg and is because of this disregarded for now.
 
