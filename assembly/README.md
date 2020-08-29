@@ -265,15 +265,15 @@ You have now succesfully attached the Shoulder Joint to the upper leg. With this
 
 With the front left (FL) leg finished, rebuild the rear left (RL) leg with the same steps. But this time use the mirrored shoulder joint piece instead. The picture below shows both legs, where the only difference is the direction the servo in the shoulder joint is facing. Both gears should face outwards towards the nose or back of the robot.
 
-![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_left_legs.png)
+![019 - Overview of all of the four legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_left_legs.png)
 
 The same applies to the front right (FR) and rear right (RR) leg, with both servo gears facing outwards. Use for the right sided legs also the mirrored copies of the lower and upper leg parts. Keep in mind, that you have set the right angles for your servos prior to assembly, with the servos in the shoulder joint being at 90°, the servos in the upper legs at 60° and the servos in the lower legs at 0°.
 
-![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_right_legs.png)
+![019 - Overview of all of the four legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_right_legs.png)
 
 When all of your legs are assembled the should look like this, with the front legs shoulder servos gears facing to the front of the robot and the rear shoulder servos facing backwards.
 
-![019](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_all_legs.png)
+![019 - Overview of all of the four legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_all_legs.png)
 
 ## Connecting to the Shoulders ##
 
@@ -295,27 +295,27 @@ When all of your legs are assembled the should look like this, with the front le
 
 Screw the servohorns to the outer shoulder piece with twelve M2x8 screws and nuts.
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_pre.png)
+![020 - Connecting to the Shoulders](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_pre.png)
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_post.png)
+![020 - Connecting to the Shoulders](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Front_Outer_Shoulder_post.png)
 
 ### Front & Rear Legs ###
 
 Screw the front legs to the outer shoulder using two M3x8 screws. Make sure the servos in the shoulder joints are at 90° and that the arms of the servohorn are perfectly perpendicular.
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_pre.png)
+![020 - Front & Rear Legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_pre.png)
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_mid.png)
+![020 - Front & Rear Legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_mid.png)
 
 Repeat this for the rear legs as well, so that both outer shoulder pieces face outwards.
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_post.png)
+![020 - Front & Rear Legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_front_outer_shoulder_front_legs_post.png)
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_rear_outer_shoulder_rear_legs_post.png)
+![020 - Front & Rear Legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_rear_outer_shoulder_rear_legs_post.png)
 
 The front and rear legs with the shoulder should look like this.
 
-![020](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Outer_Shoulders_complete.png)
+![020 - Front & Rear Legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/020_Outer_Shoulders_complete.png)
 
 ## Body ##
 
@@ -332,52 +332,172 @@ The front and rear legs with the shoulder should look like this.
 |  |  |
 |  |  |
 | 24x | M3 nuts |
-| 24x | M2x8 |
+| 24x | M3x8 |
 
 ### Inner Shoulders ###
 
 Add into each the top and bottom shoulder block two M3 nuts. Make sure you have oriented the blocks the right way, so that the pockets for the nuts that will be used to hold the covers are facing into the body.
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_pre.png)
+![021 - Inner Shoulders](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_pre.png)
 
 Screw the inner shoulder with four M3x8 screws into place, so that the screwsheads will sink into their pockets.
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_mid.png)
+![021 - Inner Shoulders](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_mid.png)
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_post.png)
+![021 - Inner Shoulders](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_inner_shoulders_post.png)
 
 ### Chassis ###
 
 Take the chassis side piece and place four M3 nuts into their pockets - the flat side should face outwards and the long cutout for the circuitry mountingplate should be at the bottom. **Currently the circuitry mountingplate is in development - the orange piece is just a placeholder and actually the template piece, if someone wants to design their own**
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides.png)
+![021 - Chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides.png)
 
 Put your ***(pre-populated ???)*** circuitry mountingplate between both sides.
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_pre.png)
+![021 - Chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_pre.png)
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_post.png)
+![021 - Chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides_circuitboardmount_post.png)
 
 Now attach both inner shoulders to it with each four M3x8 screws and the bigger blocks being at the top.
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_pre.png)
+![021 - Chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_pre.png)
 
 The assembled chassis should look like this.
 
-![021](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_post.png)
+![021 - Chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_all_post.png)
 
-Add now the four ball bearings to each shoulder joint and screw the assemblies with four M3x8 screws and nuts each together.
+### Mount legs to chassis ###
 
-![022](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_and_legs_pre_preview.png)
+Attach now the ball bearings to your shoulder joints. Put into the front of the top and bottom shoulder block M3 nuts. Screw the front legs assembly to the shoulder block with four M3x8 screws.
 
-You have now the basic framework for your robot.
+![022 - Mount legs to chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_front_legs_and_shoulder_pre.png)
 
-![022](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_and_legs_post_preview.png)
+![022 - Mount legs to chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_front_legs_and_shoulder_post.png)
 
+Repeat the steps for the rear legs as well.
 
-# what's next? #
+![022 - Mount legs to chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_rear_legs_and_shoulder_pre.png)
+
+![022 - Mount legs to chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_chassis_rear_legs_and_shoulder_post.png)
+
+When finished, your SpotMicroESP32 should look like this.
+
+![022 - Mount legs to chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_all_chassis_and_legs.png)
+
+## Head ##
+
+| Total Amount | Part |
+|--------------|------|
+|  1x | OV7670 VGA Camera w/o FIFO |
+|  2x | HC-SR04 Ultrasonic Sensor |
+|  6x | 5mm LED (White) |
+|  |  |
+|  |  |
+|  1x | Front Cover |
+|  1x | Sensormount |
+|  1x | Cameramount |
+|  |  |
+|  |  |
+|  8x | M3 nuts |
+|  8x | M3x8 |
+
+### Cameramount ###
+
+Place four M3 nuts into the pockets below the tilted camera-base.
+
+![023 - Cameramount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_cameramount_nuts_pre.png)
+
+![023 - Cameramount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_cameramount_nuts_post.png)
+
+Screw your OV7670 VGA Camera into place with four M3x8 screws.
+
+![023 - Cameramount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_camera_mate_pre.png)
+
+![023 - Cameramount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_camera_mate_post.png)
+
+### Sensormount ###
+
+**You will need to bend (or solder) the pins of the HC-SR04 in a fashian that they are parallell to the PCB and facing inwards. If the pins are perpendicular to the PCB you would not have enough space, to attach the head to the body. If being parallel and facing outwards, you would not be able to do the assembly at all. If you feel more comfortable with soldering the cables directly to the PCB, do this instead.**
+
+Place your six 5mm LED (white) into the six small holes of the sensormount with their pins in the orientation as seen in the image. The two white LEDs in the middle row (highlighted in pink or green) need to be rotated by 90°, otherwise you would not be able to assemble proberly.
+
+![023 - Sensormount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_leds_pre.png)
+
+![023 - Sensormount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_leds_post.png)
+
+Place now both HC-SR04 Ultrasonic Sensors into the sensormount, but dont push them into their pockets completly yet - leave them about half a centimeter of space for now. Make sure you have oriented them the right way, so that the internal oscillator fits into the small pocket at the sides of the sensormount. Place the assembled cameramount on top of it and push both pieces together. Make sure you route the pins of the LEDs through their holes at the top and bottom row, and the pins in the middle row along the camera-base near the HC-SR04's.
+
+![023 - Sensormount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_sensormount_camermount_mate_pre.png)
+
+When your Cameramount slides over the HC-SR04 Ultrasonic Sensors (still sticking out ca. half a centimeter), push the cameramount and the sensors gently down. 
+
+![023 - Sensormount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_sensormount_camermount_mate_mid.png)
+
+The Cameramount has two small wegdes (highlighted green) on the sides of the camera-base, which prevent the HC-SR04 from sliding out of their pockets. When pushing both the sensormount and the cameramount together, those wedges should push both HC-SR04 down. 
+
+![023 - Sensormount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_sensormount_camermount_mate_post.png)
+
+### Build Assembly into front Cover ###
+
+Place four M3 nuts into the spaces in the front cover.
+
+![023 - Build Assembly into front Cover](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_front_cover_nuts.png)
+
+Place the whole assembly into the front cover and screw it with four M3x8 into place.
+
+![023 - Build Assembly into front Cover](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_mate_all_pre.png)
+
+Your finished head-unit should look like this.
+
+![023 - Build Assembly into front Cover](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_mate_all_mid.png)
+
+![023 - Build Assembly into front Cover](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/023_mate_all_post.png)
+
+## Tail ##
+
+**todo**
+
+## Top and bottom Cover ##
+
+**todo**
+
+## Mount covers ##
+
+| Total Amount | Part |
+|--------------|------|
+| 16x | M3 nuts |
+| 16x | M3x8 |
+
+In order to mount the head-unit, the tail and the top and bottom cover to the body, you need to add the M3 nuts into the top and bottom blocks in the front and rear shoulders (highlighed green).
+
+![026 - Mount Head](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_shoulder_bottom_block_nuts.png)
+
+![026 - Mount Head](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_shoulder_top_block_nuts.png)
+
+### Mount Head ###
+
+Slide the assembled head-unit onto the front shoulder-plate.
+
+![026 - Mount Head](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_head_pre.png)
+
+Screw it from the top and from the bottom with four M3x8 screws into place.
+
+![026 - Mount Head](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_head_mid.png)
+
+![026 - Mount Head](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_head_post.png)
+
+### Mount Tail ###
+
+**todo**
+
+### Mount top and bottom covers ###
+
+**todo**
+
+# what's left? #
+
+**apart from the assembly of the tail and the top and bottom covers, and the mounting of these the assembly guide is mostly complete. Yet still the mountingplate for the circuitry is still missing!**
 
 I am currently designing the circuitry mountingplate and will certainly do some test-prints and improvements befor i release it. Once it's ready i will add the steps necessary as a separate sections in the chassis part.
 
-The real next step will be ** the assembly of the head with all the electronics**. I will design some dummies for the ultrasonic-sensors, the camera and the LEDs as well, so that each part has some representation in the finished model.
-Furthermore i want to adress some shortcomings in this guide. I want to replace all images, where the rubber dampeners are missing (mea culpa) and i want to make it more clear, which servo has to be at which angle for assembly.
+Furthermore i want to adress some shortcomings in this guide. I want to replace all images, where the rubber dampeners are missing (mea culpa) and i want to make it more clear, which servo has to be at which angle for assembly. I realize, that the description are sometimes not very clear...
