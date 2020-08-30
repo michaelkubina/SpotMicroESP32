@@ -455,11 +455,60 @@ Your finished head-unit should look like this.
 
 ## Tail ##
 
-**todo**
+| Total Amount | Part |
+|--------------|------|
+|  1x | 1,77" TFT with ST7735 w/o SD  |
+|  1x | Push Button (latching, **not momentary**) |
+|  |  |
+|  |  |
+|  1x | Rear Cover |
+|  |  |
+|  |  |
+|  4x | M2 Nuts |
+|  4x | M2x8 |
+
+### Mount TFT Screen and Pushbutton ###
+
+Place the 1,77" TFT into its designated pocket and screw it with four M2x8 screws into place - counter it with four M2 nuts from behind.
+
+![024 - Mount TFT Screen and Pushbutton](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/024_tft_pre.png)
+
+Remove the nut from your pushbutton and slide it through the hole - counter it with the nut again from behind.
+
+![024 - Mount TFT Screen and Pushbutton](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/024_pushbutton_pre.png)
+
+![024 - Mount TFT Screen and Pushbutton](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/024_tft_and_pushbutton_post_interior.png)
+
+Your rear cover is complete.
+
+![024 - Mount TFT Screen and Pushbutton](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/024_tft_and_pushbutton_post_exterior.png)
 
 ## Top and bottom Cover ##
 
-**todo**
+**ATTENTION! The bottom cover needs to be overhauled, so we could easily access the balance-charger-cable of the LiPo. In the current configuration we are not even able to mount 2S LiPo's into place!**
+
+| Total Amount | Part |
+|--------------|------|
+|  1x | Bottom Cover Front **do not use yet! See note above!** |
+|  1x | Bottom Cover Rear **do not use yet! See note above!** |
+|  1x | Top Cover Front  |
+|  1x | Top Cover Rear  |
+|  |  |
+|  |  |
+|  8x | M3 Nuts |
+|  8x | M3x8 |
+
+## Connect both cover halves ##
+
+Take the front and rear half of the top cover. Use four M3x8 screws to screw both pieces together - counter them with four M3 nuts.
+
+![025 - Connect both cover halves](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/025_top_cover_pre.png)
+
+![025 - Connect both cover halves](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/025_top_cover_post.png)
+
+Repeat this for the bottom cover halves as well.
+
+![025 - Connect both cover halves](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/025_bottom_cover.png)
 
 ## Mount covers ##
 
@@ -488,16 +537,30 @@ Screw it from the top and from the bottom with four M3x8 screws into place.
 
 ### Mount Tail ###
 
-**todo**
+Slide the tail onto the body as well and screw it with four M3x8 nuts into place.
+
+![026 - Mount Tail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_tail.png)
 
 ### Mount top and bottom covers ###
 
-**todo**
+Place the bottom cover beneath the body and screw it with four M3x8 into place.
+
+![026 - Mount top and bottom covers](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_bottom_cover.png)
+
+Place the top cover over the body and screw it with four M3x8 screws into place.
+
+![026 - Mount top and bottom covers](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/026_top_cover.png)
+
+## Assembly Finished! ##
+
+Congratulations, you have now succesfully assembled your SpotMicroESP32.
+
+![027 - Assembly Finished!](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/027_spotmicroesp32_complete.png)
 
 # what's left? #
 
-**apart from the assembly of the tail and the top and bottom covers, and the mounting of these the assembly guide is mostly complete. Yet still the mountingplate for the circuitry is still missing!**
+**The mountingplate for the circuitry is still missing and is currently being designed!**
+Once it's ready i will add the steps necessary as a separate sections in the chassis part.
+The mountingplate suits specifically this build. You might use different hardware as i did, and as of this need modifications. Please use the updated Template, once its all finished.
 
-I am currently designing the circuitry mountingplate and will certainly do some test-prints and improvements befor i release it. Once it's ready i will add the steps necessary as a separate sections in the chassis part.
-
-Furthermore i want to adress some shortcomings in this guide. I want to replace all images, where the rubber dampeners are missing (mea culpa) and i want to make it more clear, which servo has to be at which angle for assembly. I realize, that the description are sometimes not very clear...
+Furthermore i want to adress some shortcomings in this guide. I want to replace all images, where the rubber dampeners are missing (mea culpa) and i want to make it more clear, which servo has to be at which angle for assembly. I realize, that the description are sometimes not very clear...i will need to think of a way to clarify this.
