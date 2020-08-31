@@ -20,20 +20,16 @@ This is a work-in-progress, with rather loose milestones. For 2020 there were on
 Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, idead, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
 
 ## Coming soon...
-- ~~STLs and FreeCAD-Files~~
 - Mountingplate for the ciruitry - FreeCAD and STL (in progress)
-- [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/) (in progress)
 - more Template FreeCAD-Files for your own modifications
 - KiCAD or Fritzing circuit diagrams
-- Photos
-- other things i forgot
 
 ## Sections
 
 * [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/)
 * [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/#bill-of-material)
 * [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/)
-* [Electronics](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/) - currently a dummy link
+* [Electronics](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/)
 * [Programming](https://github.com/michaelkubina/SpotMicroESP32/blob/master/code/)
 * [Inverse Kinematics](https://github.com/michaelkubina/SpotMicroESP32/blob/master/kinematics/)
 
@@ -57,14 +53,15 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | 5mm ~3V LEDs (White)						|  6x | LEDs used as your camera-lights																		| tested			| 1€		|
 | 5mm ~3V RGB-LEDs							|  2x | RGB-LEDs used as an underglow, might signal status or mood											| tested			| 1€		|
 | HC-SR04 Ultrasonic Sensor					|  2x | ultrasonic sensor module for distance measuring														| tested			| 3€ each	|
-| GY-521 Gyroscope and Accelerometer		|  2x | a module to measure accelaration and spatial orientation, which can be extented with magnetometers  | tested			| 3€ each	|
+| GY-521 Gyroscope and Accelerometer		|  1x | a module to measure accelaration and spatial orientation, which can be extented with magnetometers  | tested			| 3€		|
 | PCA9685 16Channel 12Bit PWM Board			|  1x | PWM driver board used for your servos and LEDs, which can power your parts from an external source	| tested			| 5€		|
 | OV7670 VGA-Camera Module w/o FIFO			|  1x | VGA-Camera without framebuffer IC, used with lower resolution due to memory restrictions			| tested			| 3€		|
 | HW-482 5V 10A Relais						|  1x | relais module to cut the power to your servos completely											| tested			| 3€		|
 | 1,77" TFT with ST7735 w/o SD				|  1x | small TFT screen with ST7735 IC for status informations												| tested			| 7€		|
 | 19mm Push Button with LED					|  1x | illuminated pushbutton as external interrupt and single button input								| tested			| 10€		|
-| XL4016 DC-DC 12A Stepdown Converter  		|  1x | step-down converter to lower your LiPo 2S voltage to 6V ***(better use an UBEC instead???)***		|*partially tested* | 8€		|
-| 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				|**not tested** 	| 40€		|
+| XL4016 DC-DC 12A Stepdown Converter  		|  1x | big step-down converter to lower your LiPo 2S voltage to 6,5V 										| tested		    | 8€		|
+| LM2596 DC-DC or similar Stepdown Module	|  2x | small step-down converter to lower your LiPo 2S voltage to 3,3V and 5V **(maybe not necessary)**	| **not tested**	| 2€ each	|
+| 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				| tested		 	| 40€		|
 
 ### Miscellaneous
 
