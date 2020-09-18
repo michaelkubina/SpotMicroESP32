@@ -14,7 +14,14 @@ This assembly is **not compatible** with the KDY0523-Spotmicro
 | ![Chassis Side Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Chassis_Side.png)										| Chassis Side						| 2 | - | 2 |  20% |  22g |
 | ![Top Shoulder Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Top_Shoulder.png)										| Top Shoulder						| 2 | - | 2 |  20% |  20g |
 | ![Bottom Shoulder Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Bottom_Shoulder.png)									| Bottom Shoulder					| 2 | - | 2 |  20% |  12g |
-| ![Circuitboard Mount Template Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Circuitboard_Mount%20(Template).png)		| Circuitboard Mount Template		| - | - | - |    - |    - |
+| ![LiPo Mountingbracket Front Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/LiPo_Mountingbracket_Front.png)			| LiPo Mountingbracket Front		| 1 | - | 1 |  20% |   5g |
+| ![LiPo Mountingbracket Middle Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/LiPo_Mountingbracket_Middle.png)			| LiPo Mountingbracket Middle		| 1 | - | 1 |  20% |   3g |
+| ![LiPo Mountingbracket Rear Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/LiPo_Mountingbracket_Rear.png)				| LiPo Mountingbracket Rear			| 1 | - | 1 |  20% |   7g |
+| ![Circuitry Mountingplate Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Circuitry_Mountingplate.png)					| Circuitry Mountingplate 			| 1 | - | 1 |  20% |  56g |
+| ![Circuitry Mountingplate Extended Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Circuitry_Mountingplate_extended.png)					| Circuitry Mountingplate with Neopixel-Extensions			| 1 | - | 1 |  20% |  66g |
+| ![TTL Counterpiece Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/TTL_Counterpiece.png)								| TTL Counterpiece 					| 1 | - | 1 |  20% |   5g |
+| ![Circuitry Mountingplate Template Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Circuitry_Mountingplate%20(Template).png)		| Actual Circuitry Mountingplate Template		| - | - | - |    - |    - |
+| ![Circuitboard Mount Template Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Circuitboard_Mount%20(Template).png)		| Simple Mountingplate Template		| - | - | - |    - |    - |
 
 ### Shoulder Joints 
 This assembly is compatible with the KDY0523-Spotmicro
@@ -51,6 +58,7 @@ This assembly is **not compatible** with the KDY0523-Spotmicro
 | ![Front Cover Optimized Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Front_Cover_Optimized.png)						| Front Cover Optimized				| 1 | - | 1 | 100% |  58g |
 | ![Sensormount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Sensormount.png)											| Sensormount						| 1 | - | 1 |  20% |  17g |
 | ![Cameramount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Cameramount.png)											| Cameramount						| 1 | - | 1 |  20% |  15g |
+| ![Rear Cover Long Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Rear_Cover_Long.png)									| Rear Cover Longer Version			| 1 | - | 1 | 100% |  63g |
 | ![Rear Cover Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Rear_Cover.png)											| Rear Cover						| 1 | - | 1 | 100% |  53g |
 | ![Rear Cover Template Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Rear_Cover%20(Template).png)						| Rear Cover Template				| - | - | - |    - |    - |
 | ![Top Cover Split Front Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Top_Cover_Split_Front.png)						| Top Cover Split Front				| 1 | - | 1 | 100% |  48g |

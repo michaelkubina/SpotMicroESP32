@@ -10,6 +10,7 @@ Join the Slack-Channel for this remix - discuss any topics regarding this design
 
 ## Note of thanks
 I want to thank Deok-yeon Kim (KDY0523) for his beatiful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
+
 Him sharing the files with an open licence, made it possible to let it grow a community around it. This is why i want to reference to them as well - the SpotMicroAI Community: https://spotmicroai.readthedocs.io/en/latest/
 
 ## Preface
@@ -20,7 +21,7 @@ This is a work-in-progress, with rather loose milestones. For 2020 there were on
 Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, idead, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
 
 ## Coming soon...
-- Mountingplate for the ciruitry - FreeCAD and STL (in progress)
+- ~~Mountingplate for the ciruitry - FreeCAD and STL (in progress)~~
 - more Template FreeCAD-Files for your own modifications
 - KiCAD or Fritzing circuit diagrams
 
@@ -45,23 +46,32 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | part or module | number | short description | status | estimated price | 
 |----------------|--------|-------------------|--------|:-------------------------|
 | ESP32-DevKitC  							|  1x | the core MCU for the build with WIFI + BLE capabilities												| tested			| 7€		|
+| ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera																		| **not tested**	| 10€		|
 | MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														| tested			| 5€ each 	|
 | FSH6S Servohorn 							| 12x | servohorn used for this build (should be already shipped with your servos) 							| tested 			| n.n. 		|
 | Rubber Dampeners for your Servos			| 48x | servo rubber dampeners, so you could use M3 screws (should be already shipped with your servos) 	| tested 			| n.n. 		|
 | Servocable Extension						|  4x | extending the servocables of the lower legs about 10cm to 15cm 										| tested			| 10€		|
 | 625ZZ Ball Bearing 						|  8x | miniature ball bearing without a flange 															| tested 			| 1€ each 	|
-| 5mm ~3V LEDs (White)						|  6x | LEDs used as your camera-lights																		| tested			| 1€		|
-| 5mm ~3V RGB-LEDs							|  2x | RGB-LEDs used as an underglow, might signal status or mood											| tested			| 1€		|
+| WS2812B Pixelboard						|  4x | Neopixel-Clones (SMD LED's on small round PCB) used as an underglow, might signal status or mood	| tested			| 1€		|
 | HC-SR04 Ultrasonic Sensor					|  2x | ultrasonic sensor module for distance measuring														| tested			| 3€ each	|
 | GY-521 Gyroscope and Accelerometer		|  1x | a module to measure accelaration and spatial orientation, which can be extented with magnetometers  | tested			| 3€		|
 | PCA9685 16Channel 12Bit PWM Board			|  1x | PWM driver board used for your servos and LEDs, which can power your parts from an external source	| tested			| 5€		|
-| OV7670 VGA-Camera Module w/o FIFO			|  1x | VGA-Camera without framebuffer IC, used with lower resolution due to memory restrictions			| tested			| 3€		|
 | HW-482 5V 10A Relais						|  1x | relais module to cut the power to your servos completely											| tested			| 3€		|
 | 1,77" TFT with ST7735 w/o SD				|  1x | small TFT screen with ST7735 IC for status informations												| tested			| 7€		|
-| 19mm Push Button with LED					|  1x | illuminated pushbutton as external interrupt and single button input								| tested			| 10€		|
+| 19mm Push Button with LED					|  1x | illuminated latching pushbutton 																	| tested			| 10€		|
 | XL4016 DC-DC 12A Stepdown Converter  		|  1x | big step-down converter to lower your LiPo 2S voltage to 6,5V 										| tested		    | 8€		|
-| LM2596 DC-DC or similar Stepdown Module	|  2x | small step-down converter to lower your LiPo 2S voltage to 3,3V and 5V **(maybe not necessary)**	| **not tested**	| 2€ each	|
+| LM2596 DC-DC or similar Stepdown Module	|  1x | small step-down converter to lower your LiPo 2S voltage 5V for ESP32's VIN and Modules 				| **not tested**	| 2€ each	|
 | 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				| tested		 	| 40€		|
+
+#### Depecrated
+
+The Camera-Unit in the head will be replaced by an ESP32-CAM, because its reasonably cheap (~10€) and opens up a lot of new possibilities like object-recognition, because of additional processing-power.
+
+| part or module | number | short description | status | estimated price | 
+|----------------|--------|-------------------|--------|:-------------------------|
+| OV7670 VGA-Camera Module w/o FIFO			|  1x | VGA-Camera without framebuffer IC, used with lower resolution due to memory restrictions **(replaced by ESP32-CAM)**			| tested			| 3€		|
+| 5mm ~3V LEDs (White)						|  6x | LEDs used as your camera-lights	**(replaced by ESP32-CAM internal flashlight)**													| tested			| 1€		|
+| 5mm ~3V RGB-LEDs							|  2x | RGB-LEDs used as an underglow, might signal status or mood **(replaced by Neopixel-Generica)**									| tested			| 1€		|
 
 ### Miscellaneous
 
