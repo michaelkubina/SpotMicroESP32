@@ -6,11 +6,10 @@ You can find the 3D-printing parts on Thingiverse as well: https://www.thingiver
 
 Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)
 
-![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
-
 This Project currently lacks the whole programming/software part. Lukily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
+https://github.com/maartenweyn/SpotMicro_ESP32
 
-![Maarten Weyns SpotMicroESP32 Software]https://github.com/maartenweyn/SpotMicro_ESP32
+![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
 
 ## Note of thanks
 I want to thank Deok-yeon Kim (KDY0523) for his beatiful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
