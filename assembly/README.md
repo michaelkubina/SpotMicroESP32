@@ -457,11 +457,11 @@ Your finished head-unit should look like this.
 
 | Total Amount | Part |
 |--------------|------|
-|  1x | 1,8" TFT with ST7735 with SD  |
+|  1x | 1,8" TFT with ST7735 with SD-Card  |
 |  1x | Push Button (latching, **not momentary**) |
 |  |  |
 |  |  |
-|  1x | Rear Cover |
+|  1x | Rear Cover Long for the 1.8" TFT with SD-Card|
 |  |  |
 |  |  |
 |  4x | M3 Nuts |
