@@ -6,7 +6,7 @@ You can find the 3D-printing parts on Thingiverse as well: https://www.thingiver
 
 Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)
 
-This Project currently lacks the whole programming/software part. Lukily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
+This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
 https://github.com/maartenweyn/SpotMicro_ESP32
 
 ![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
@@ -21,7 +21,7 @@ This is a work-in-progress, with rather loose milestones. For 2020 there were on
 - to redesign the original parts, so that they could be printed without any support
 - to make a circuitry for all sensors and parts, that possibly would fit and be considere necessary
 
-Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, idead, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
+Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, ideas, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
 
 ## Coming soon...
 - ~~Mountingplate for the ciruitry - FreeCAD and STL (in progress)~~
@@ -44,11 +44,11 @@ The following Section will describe in detail the different parts needed for you
 To build your own SpotMicroESP32 you will need to print a lot parts. For an overview of the 3D printed parts needed, please visit the [3D-printed Partlist](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/). It might be necessary to remix some of the templates to suit your needs, when chosing other electronic components than those listet here.
 
 ### Electronics
-The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change as well. There are still some parts missing and some others are not tested yet - those status will be marked as such. I will give a rough price estimate, which may or may not work for you and might be out of date at some point.
+The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change as well - check the "deprecated" section for changes. There are still some parts missing and some others are not tested yet - those status will be marked as such. I will give a rough price estimate, which may or may not work for you and might be out of date at some point.
 
 | part or module | number | short description | status | estimated price | 
 |----------------|--------|-------------------|--------|:-------------------------|
-| ESP32-DevKitC  							|  1x | the core MCU for the build with WIFI + BLE capabilities												| tested			| 7€		|
+| ESP32-DevKitC (Version 1 / Version A)		|  1x | the core MCU for the build with WIFI + BLE capabilities. Make sure you use the DevKitC Version 1 / Version A with mountingholes. You cannot use Version 4, because it is without mountingholes and cannot be properly mounted!											| tested			| 7€		|
 | ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera																		| **not tested**	| 10€		|
 | FT232RL USB-TTL-Adapter					|  1x | USB-to-Serial Adapter for ESP32-CAM flashing														| **not tested**	| 2€		|
 | MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														| tested			| 5€ each 	|
