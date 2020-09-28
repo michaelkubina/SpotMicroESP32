@@ -457,19 +457,19 @@ Your finished head-unit should look like this.
 
 | Total Amount | Part |
 |--------------|------|
-|  1x | 1,77" TFT with ST7735 w/o SD  |
+|  1x | 1,8" TFT with ST7735 with SD  |
 |  1x | Push Button (latching, **not momentary**) |
 |  |  |
 |  |  |
 |  1x | Rear Cover |
 |  |  |
 |  |  |
-|  4x | M2 Nuts |
-|  4x | M2x8 |
+|  4x | M3 Nuts |
+|  4x | M3x8 |
 
 ### Mount TFT Screen and Pushbutton ###
 
-Place the 1,77" TFT into its designated pocket and screw it with four M2x8 screws into place - counter it with four M2 nuts from behind.
+Place the 1,8" TFT with SD-Card into its designated pocket and screw it with four M3x8 screws into place - counter it with four M3 nuts from behind.
 
 ![024 - Mount TFT Screen and Pushbutton](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/024_tft_pre.png)
 
