@@ -49,7 +49,7 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | part or module | number | short description | status | estimated price | 
 |----------------|--------|-------------------|--------|:-------------------------|
 | ESP32-DevKitC (Version 1 / Version A)		|  1x | the core MCU for the build with WIFI + BLE capabilities. Make sure you use the DevKitC Version 1 / Version A with mountingholes. You cannot use Version 4, because it is without mountingholes and cannot be properly mounted!											| tested			| 7€		|
-| ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera																		| **not tested**	| 10€		|
+| ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera (version 2). There are also cameras with a version 1 OV2640, where the sensor is in landscape orientation and not in portrait. Also the flexcable seems to be some millimeters shorter than the one from Version 2. You can distinguish them by the imprint on the flexcable, stating TY-OV2640-V2.0. Also dont go with the one with an fisheye-lens - the field of view would be hindered. 																		| **not tested**	| 10€		|
 | FT232RL USB-TTL-Adapter					|  1x | USB-to-Serial Adapter for ESP32-CAM flashing														| **not tested**	| 2€		|
 | MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														| tested			| 5€ each 	|
 | FSH6S Servohorn 							| 12x | servohorn used for this build (should be already shipped with your servos) 							| tested 			| n.n. 		|
