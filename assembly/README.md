@@ -384,7 +384,28 @@ When finished, your SpotMicroESP32 should look like this.
 
 ![022 - Mount legs to chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/022_all_chassis_and_legs.png)
 
-## Head ##
+## Head with ESP32-CAM ##
+
+| Total Amount | Part |
+|--------------|------|
+|  1x | ESP32-CAM with OV2640 (Version 2! with slightly longer cable) |
+|  2x | HC-SR04 Ultrasonic Sensor |
+|  |  |
+|  |  |
+|  1x | Front Cover |
+|  1x | Sensormount ESP32-CAM|
+|  1x | Cameramount ESP32-CAM|
+|  1x | Cameramount Counterpiece ESP32-CAM|
+|  |  |
+|  |  |
+|  4x | M3 nuts |
+|  6x | M3x8 |
+
+Place the ESP32-CAM into the designated place of the Cameramount. Screw the counterpiece with two M3x8 screws into place, with the small pads facing towards the ESP32-CAM thus preventing the PCB from lifting. Place now the two HC-SR04 into their spaces in the sensormount-piece, but dont push them all way down yet. Instead leave some half centimeter space.. Push now the Cameramount-piece on top of if, so that the wedges slide on top of the HC-SR04 PCBs, thus preventing them from slipping back out again. It might be necessare to hone down a small portion of the lower ends of the wedges.
+
+Place now four M3 nuts into the spaces in the front cover, push the sensor- & cameramount into place and screw all of it with four M3x8 screws into place. The head is now assembled.
+
+## Head with OV7670 (DEPRECATED) ##
 
 | Total Amount | Part |
 |--------------|------|
