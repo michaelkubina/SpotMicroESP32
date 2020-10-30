@@ -9,6 +9,8 @@ Join the Slack-Channel for this remix - discuss any topics regarding this design
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
 https://github.com/maartenweyn/SpotMicro_ESP32
 
+Look also at the GitLab pages for the general SpomicroAI community, where you can find different models and resources: https://gitlab.com/custom_robots/spotmicroai
+
 ![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
 
 ## Note of thanks
@@ -18,10 +20,10 @@ Him sharing the files with an open licence, made it possible to let it grow a co
 
 ## Preface
 This is a work-in-progress, with rather loose milestones. For 2020 there were only two goals
-- to redesign the original parts, so that they could be printed without any support
-- to make a circuitry for all sensors and parts, that possibly would fit and be considere necessary
+- ~to redesign the original parts, so that they could be printed without any support~
+- ~to make a circuitry for all sensors and parts, that possibly would fit and be considere necessary~ (currently sketching it in kicad and fritzing! coming soon!)
 
-Both of these will be coming soon, as both goals have progress farther than 90% each. This repository is a representation of my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, ideas, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
+This repository is currently just my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, ideas, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
 
 ## Coming soon...
 - ~~Mountingplate for the ciruitry - FreeCAD and STL (in progress)~~
@@ -48,9 +50,9 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 
 | part or module | number | short description | status | estimated price | 
 |----------------|--------|-------------------|--------|:-------------------------|
-| ESP32-DevKitC (Version 1 / Version A)		|  1x | the core MCU for the build with WIFI + BLE capabilities. Make sure you use the DevKitC Version 1 / Version A with mountingholes. You cannot use Version 4, because it is without mountingholes and cannot be properly mounted!											| tested			| 7€		|
-| ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera (version 2). There are also cameras with a version 1 OV2640, where the sensor is in landscape orientation and not in portrait. Also the flexcable seems to be some millimeters shorter than the one from Version 2. You can distinguish them by the imprint on the flexcable, stating TY-OV2640-V2.0. Also dont go with the one with an fisheye-lens - the field of view would be hindered. 																		| **not tested**	| 10€		|
-| FT232RL USB-TTL-Adapter					|  1x | USB-to-Serial Adapter for ESP32-CAM flashing														| **not tested**	| 2€		|
+| ESP32-DevKitC 							|  1x | the core MCU for the build with WIFI + BLE capabilities. 											| tested			| 7€		|
+| ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera (version 2). There are also cameras with a version 1 OV2640, where the sensor is in landscape orientation and not in portrait. Also the flexcable seems to be some millimeters shorter than the one from Version 2. You can distinguish them by the imprint on the flexcable, stating TY-OV2640-V2.0. Also dont go with the one with an fisheye-lens - the field of view would be hindered. 																		| tested	| 10€		|
+| FT232RL USB-TTL-Adapter					|  1x | USB-to-Serial Adapter for ESP32-CAM flashing														| tested			| 2€		|
 | MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														| tested			| 5€ each 	|
 | FSH6S Servohorn 							| 12x | servohorn used for this build (should be already shipped with your servos) 							| tested 			| n.n. 		|
 | Rubber Dampeners for your Servos			| 48x | servo rubber dampeners, so you could use M3 screws (should be already shipped with your servos) 	| tested 			| n.n. 		|
@@ -63,9 +65,9 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | HW-482 / KY-019 5V 10A Relais				|  1x | relais module to cut the power to your servos completely											| tested			| 3€		|
 | 1,8" TFT with ST7735 with SD				|  1x | small TFT screen with ST7735 IC for status informations												| tested			| 7€		|
 | 19mm Push Button with LED					|  1x | illuminated latching pushbutton 																	| tested			| 10€		|
-| Micro-USB to DIP Adapter					|  2x | USB-Ports used for extending the USB-Ports of the ESP32 DevKitC and ESP32-CAM (TTL-Adapter)			| **not tested**	| 2€		|
+| Micro-USB to DIP Adapter					|  2x | USB-Ports used for extending the USB-Ports of the ESP32 DevKitC and ESP32-CAM (TTL-Adapter)			| tested			| 2€		|
 | XL4016 DC-DC 9A Stepdown Converter  		|  1x | big step-down converter to lower your LiPo 2S voltage to 6,5V 										| tested		    | 8€		|
-| LM2596 DC-DC or similar Stepdown Module	|  1x | small step-down converter to lower your LiPo 2S voltage 5V for ESP32's VIN and Modules 				| **not tested**	| 2€ each	|
+| LM2596 DC-DC or similar Stepdown Module	|  1x | small step-down converter to lower your LiPo 2S voltage 5V for ESP32's VIN and Modules 				| tested			| 2€ each	|
 | 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				| tested		 	| 40€		|
 
 #### Depecrated
