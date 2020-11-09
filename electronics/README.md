@@ -17,7 +17,7 @@ This fritzing-diagram is not cleaned up, but it is in itself complete for the cu
 * I2C Data grey
 * etc...
 
-![Circuitry Milestone](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/fritzing-diagram.png)
+![Fritzing Diagram](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/fritzing_diagram.png)
 
 ### PCA9685 ###
 
