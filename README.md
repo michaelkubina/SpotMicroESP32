@@ -53,12 +53,14 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | ESP32-DevKitC 							|  1x | the core MCU for the build with WIFI + BLE capabilities. 											| tested			| 7€		|
 | ESP32-CAM									|  1x | ESP32-Module with OV2640 Camera (version 2). There are also cameras with a version 1 OV2640, where the sensor is in landscape orientation and not in portrait. Also the flexcable seems to be some millimeters shorter than the one from Version 2. You can distinguish them by the imprint on the flexcable, stating TY-OV2640-V2.0. Also dont go with the one with an fisheye-lens - the field of view would be hindered. 																		| tested	| 10€		|
 | FT232RL USB-TTL-Adapter					|  1x | USB-to-Serial Adapter for ESP32-CAM flashing														| tested			| 2€		|
-| MG996R Servo 								| 12x | 10Kg servos with metal gears and ball bearings 														| tested			| 5€ each 	|
+| (MG996R Servo)								| 12x | The bare minimum... but with flaws like jittering and much play... 10Kg servos with metal gears and ball bearings. With these the robot is capable to stand up/change his pose but they are most likely too weak for smooth and reliable walking. Go with these only if you can accept these limitations and if more expensive servos would mean not to try this project in the first place.  										| tested			| 5€ each 	|
+| better go with DS3218MG Servo 			| 12x | 20Kg servos with metal gears and ball bearings. Much less play and in my tests no jittering, but also very strong. With these your robot should be able to walk. Maybe only 4 or 8 of these are enough, when used in the lower and upper leg and mixed with using MG996R in the shoulders.  														| partially tested	| 15€-20€ each 	|
 | FSH6S Servohorn 							| 12x | servohorn used for this build (should be already shipped with your servos) 							| tested 			| n.n. 		|
 | Rubber Dampeners for your Servos			| 48x | servo rubber dampeners, so you could use M3 screws (should be already shipped with your servos) 	| tested 			| n.n. 		|
 | Servocable Extension						|  4x | extending the servocables of the lower legs about 10cm to 15cm 										| tested			| 10€		|
 | 625ZZ Ball Bearing 						|  8x | miniature ball bearing without a flange 															| tested 			| 1€ each 	|
-| WS2812B Pixelboard						|  4x | Neopixel-Clones (SMD LED's on small round PCB) used as an underglow, might signal status or mood	| tested			| 1€		|
+| optional WS2812B Pixelboard				|  4x | Neopixel-Clones (SMD LED's on small round PCB) used as an underglow, might signal status or mood	| tested			| 1€		|
+| WS2812b 12 LED Ring (50mm outer diameter) |  1x | Neopixel-Clone-Ring with an outer diameter of 50mm used to signal status/mood						| tested            | 6€        |
 | HC-SR04 Ultrasonic Sensor					|  2x | ultrasonic sensor module for distance measuring														| tested			| 3€ each	|
 | GY-521 Gyroscope and Accelerometer		|  1x | a module to measure accelaration and spatial orientation, which can be extented with magnetometers  | tested			| 3€		|
 | PCA9685 16Channel 12Bit PWM Board			|  1x | PWM driver board used for your servos and LEDs, which can power your parts from an external source	| tested			| 5€		|
