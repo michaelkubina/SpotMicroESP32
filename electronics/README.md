@@ -21,14 +21,14 @@ This fritzing-diagram is not cleaned up, but it is in itself complete for the cu
 
 ## Images ##
 
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0001.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0002.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0003.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0004.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0005.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0006.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0007.jpg)
-![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0008.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0001.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0002.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0003.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0004.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0005.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0006.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0007.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0008.jpg)
 
 ### PCA9685 ###
 
