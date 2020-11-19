@@ -6,7 +6,7 @@
 
 ## Resources ##
 
-You can find an excel-sheet in this sections, which describes the basic pin-assignments. I still need to tidy everything up, but the informations on this page are sort-of final. I actually am thinking to remove the TFT and the neopixel underglow completly. I am also thinking about integrating an DFPlayer Module to be able to play MP3 files.
+You can find an excel-sheet in this sections, which describes the basic pin-assignments. I still need to tidy everything up, but the informations on this page are sort-of final. I actually am thinking to remove the TFT and the neopixel underglow completly. I am also thinking about integrating an DFPlayer Module to be able to play MP3 files and to add a current sensor in case we need to cut current draw from the servos when stalling.
 
 ## Wiring ##
 
@@ -19,7 +19,24 @@ This fritzing-diagram is not cleaned up, but it is in itself complete for the cu
 
 ![Fritzing Diagram](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/fritzing_diagram.png)
 
+## Images ##
+
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0001.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0002.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0003.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0004.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0005.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0006.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0007.jpg)
+![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/0008.jpg)
+
 ### PCA9685 ###
+
+The PCA9685 is capable of FastMode+ (I2C clock at 1Mhz) - it should have its own I2C bus - which gives us more update cycles on the servos. The MG996R even though most tutorials and sellers claim their working frequency to be 50Hz, we can actually go to even 333Hz and beyond. The limit is only the 12Bit resolution and the maximum value for your servo for the max-angle. The pulsewidth of about 2ms + about 0.3ms is whats relevant for the IC in these digital servos.
+
+Do not use Standard Mode - 100KHz
+Do not use FastMode - 400KHz
+Go with FastMode+ - 1MHz
 
 | Channel | Servo | Abbreviation        |
 |---------|-------|---------------------|
