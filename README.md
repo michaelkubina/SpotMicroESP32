@@ -9,6 +9,9 @@ Join the Slack-Channel for this remix - discuss any topics regarding this design
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
 https://github.com/maartenweyn/SpotMicro_ESP32
 
+An walking gait implementation and voice-commanding was achieved by Guna R. from the slacks #spotmicro-esp32 channel, whis is build upon Maartens software (see Repo above). You definitly have to take a look there as well:
+https://github.com/cholan2100/ceasar
+
 Look also at the GitLab pages for the general SpomicroAI community, where you can find different models and resources: https://gitlab.com/custom_robots/spotmicroai
 
 ![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
