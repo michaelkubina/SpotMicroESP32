@@ -17,7 +17,7 @@ Look also at the GitLab pages for the general SpomicroAI community, where you ca
 ![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
 
 ## Note of thanks
-I want to thank Deok-yeon Kim (KDY0523) for his beatiful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
+I want to thank Deok-yeon Kim (KDY0523) for his beautyfull and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
 
 Him sharing the files with an open licence, made it possible to let it grow a community around it. This is why i want to reference to them as well - the SpotMicroAI Community: https://spotmicroai.readthedocs.io/en/latest/
 
@@ -63,6 +63,7 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | Servocable Extension						|  4x | extending the servocables of the lower legs about 10cm to 15cm 										| tested			| 10€		|
 | 625ZZ Ball Bearing 						|  8x | miniature ball bearing without a flange 															| tested 			| 1€ each 	|
 | WS2812b 12 LED Ring (50mm outer diameter) |  1x | Neopixel-Clone-Ring with an outer diameter of 50mm used to signal status/mood						| tested            | 6€        |
+| 0.96" OLED I2C Display					|  1x | small OLED screen with SSD1306 IC for status informations											| tested			| 4€		|
 | HC-SR04 Ultrasonic Sensor					|  2x | ultrasonic sensor module for distance measuring														| tested			| 3€ each	|
 | GY-521 Gyroscope and Accelerometer		|  1x | a module to measure accelaration and spatial orientation, which can be extented with magnetometers  | tested			| 3€		|
 | PCA9685 16Channel 12Bit PWM Board			|  1x | PWM driver board used for your servos and LEDs, which can power your parts from an external source	| tested			| 5€		|
@@ -85,7 +86,7 @@ The Camera-Unit in the head will be replaced by an ESP32-CAM, because its reason
 | 5mm ~3V RGB-LEDs							|  2x | RGB-LEDs used as an underglow, might signal status or mood **(replaced by Neopixel-Generica)**									| tested			| 1€		|
 | 1,77" TFT with ST7735 w/o SD				|  1x | small TFT screen with ST7735 IC for status informations **(replaced by 1.8" TFT with SD-Card)**									| tested			| 7€		|
 | optional WS2812B Pixelboard				|  4x | Neopixel-Clones (SMD LED's on small round PCB) used as an underglow, might signal status or mood	**(removed, as the result is underwealming** | tested			| 1€		|
-| 1,8" TFT with ST7735 with SD				|  1x | small TFT screen with ST7735 IC for status informations	**(removed, because there is no actual use - BEWARE: rear-cover not updated yet!)**	 |tested			| 7€		|
+| 1,8" TFT with ST7735 with SD				|  1x | small TFT screen with ST7735 IC for status informations	**(replaced by 0.96" OLED I2C Display)**	 |tested			| 7€		|
 
 ### Miscellaneous
 
