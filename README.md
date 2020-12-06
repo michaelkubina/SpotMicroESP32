@@ -73,6 +73,8 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | XL4016 DC-DC 9A Stepdown Converter  		|  1x | big step-down converter to lower your LiPo 2S voltage to 6,5V **(will be deprecated after parts update)** | tested		    | 8€		|
 | or SZBK07 DC-DC 20A Stepdown Converter  	|  1x | even bigger step-down converter to lower your LiPo 2S voltage to 6,5V **(parts updates pending)**	| tested		    | 12€		|
 | LM2596 DC-DC or similar Stepdown Module	|  1x | small step-down converter to lower your LiPo 2S voltage 5V for ESP32's VIN and Modules 				| tested			| 2€ each	|
+| ACS712 30A current sensor module			|  1x | current sensor module capable of max. 30A for e.g. emergency shutdown				 				| tested			| 2€ 		|
+| 25V voltage sensor module					|  1x | simple voltage divider module for up to 25V used as a voltage sensor to determin battery charge		| tested			| 2€ 		|
 | 5200mAh - 6200mAh LiPo 30C+ 2S Tamiya/XH	|  1x | beefy LiPo as your main power source ***(this is actually your individual choice)***				| tested		 	| 40€		|
 
 #### Depecrated
