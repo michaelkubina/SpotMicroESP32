@@ -6,20 +6,23 @@
 
 ## Resources ##
 
-You can find an excel-sheet in this sections, which describes the basic pin-assignments. I still need to tidy everything up, but the informations on this page are sort-of final. I actually am thinking to remove the TFT and the neopixel underglow completly. I am also thinking about integrating an DFPlayer Module to be able to play MP3 files and to add a current sensor in case we need to cut current draw from the servos when stalling.
+You can find an excel-sheet in this sections, which describes the basic pin-assignments.
 
 ## Wiring ##
 
-This fritzing-diagram is not cleaned up, but it is in itself complete for the current state. When wiring your own robot, think of some kind of color coding for your wires, so its easier to distuingish them - for example:
+~This fritzing-diagram is not cleaned up, but it is in itself complete for the current state.~ When wiring your own robot, think of some kind of color coding for your wires, so its easier to distuingish them - for example:
 * 5V with an violett wires
 * 3.3V with an red wires
 * I2C Clock white
 * I2C Data grey
+* Analog Signals ocker 
 * etc...
 
-![Fritzing Diagram](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/fritzing_diagram.png)
+![Fritzing Diagram](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/2020-12-09_Circuitry_final.png)
 
 ## Images ##
+
+Some images from my build, but not the latest - update in development.
 
 ![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0001.jpg)
 ![Circuit Overview](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/images/electronics_0002.jpg)
