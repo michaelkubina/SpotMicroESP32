@@ -1,6 +1,6 @@
 ﻿# Electronics #
 
-**Work-in-Progress : currently working on tidying up the fritzing diagram, writing a kicad-schema and writing an "assembly and wiring instruction"**
+**Work-in-Progress : ~currently working on tidying up the fritzing diagram~, writing a kicad-schema and writing an "assembly and wiring instruction"**
 
 ![Circuitry Milestone](https://github.com/michaelkubina/SpotMicroESP32/blob/master/electronics/circuitry_working.jpg)
 

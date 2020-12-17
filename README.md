@@ -5,6 +5,7 @@ My take on a SpotMicro with an optimized design for supportfree 3D-printing util
 You can find the 3D-printing parts on Thingiverse as well: https://www.thingiverse.com/thing:4559827/files
 
 Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)
+Or joing the Discord-Channel for this remix: https://discord.gg/s8F6xHGk9Y (#spotmicro-esp32)
 
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
 https://github.com/maartenweyn/SpotMicro_ESP32
@@ -70,8 +71,8 @@ The SpotMicroESP32 ist still a Work-in-Progress and as such the BOM might change
 | HW-482 / KY-019 5V 10A Relais				|  1x | relais module to cut the power to your servos completely											| tested			| 3€		|
 | 19mm Push Button with LED					|  1x | illuminated latching pushbutton 																	| tested			| 10€		|
 | Micro-USB to DIP Adapter					|  2x | USB-Ports used for extending the USB-Ports of the ESP32 DevKitC and ESP32-CAM (TTL-Adapter)			| tested			| 2€		|
-| XL4016 DC-DC 9A Stepdown Converter  		|  1x | big step-down converter to lower your LiPo 2S voltage to 6,5V **(will be deprecated after parts update)** | tested		    | 8€		|
-| or SZBK07 DC-DC 20A Stepdown Converter  	|  1x | even bigger step-down converter to lower your LiPo 2S voltage to 6,5V **(parts updates pending)**	| tested		    | 12€		|
+| XL4016 DC-DC 9A Stepdown Converter  		|  1x | big step-down converter to lower your LiPo 2S voltage to 6,5V **(minimum for MG996R)** | tested		    | 8€		|
+| or SZBK07 DC-DC 20A Stepdown Converter  	|  1x | even bigger step-down converter to lower your LiPo 2S voltage to 6,5V **(minimum for DS3218)**	| tested		    | 12€		|
 | LM2596 DC-DC or similar Stepdown Module	|  1x | small step-down converter to lower your LiPo 2S voltage 5V for ESP32's VIN and Modules 				| tested			| 2€ each	|
 | ACS712 30A current sensor module			|  1x | current sensor module capable of max. 30A for e.g. emergency shutdown				 				| tested			| 2€ 		|
 | 25V voltage sensor module					|  1x | simple voltage divider module for up to 25V used as a voltage sensor to determin battery charge		| tested			| 2€ 		|

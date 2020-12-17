@@ -328,7 +328,7 @@ The front and rear legs with the shoulder should look like this.
 |  2x | Top Shoulder |
 |  2x | Bottom Shoulder |
 |  2x | Chassis Side |
-|  1x | Circuitry Mountingplate **(still in development)** |
+|  1x | Circuitry Mountingplate **(choose either the XL4016 or SZBK07 type, depending on your chosen larger buck-converter)** |
 |  |  |
 |  |  |
 | 24x | M3 nuts |
@@ -348,7 +348,7 @@ Screw the inner shoulder with four M3x8 screws into place, so that the screwshea
 
 ### Chassis ###
 
-Take the chassis side piece and place four M3 nuts into their pockets - the flat side should face outwards and the long cutout for the circuitry mountingplate should be at the bottom. **Currently the circuitry mountingplate is in development - the orange piece is just a placeholder and actually the template piece, if someone wants to design their own**
+Take the chassis side piece and place four M3 nuts into their pockets - the flat side should face outwards and the long cutout for the circuitry mountingplate should be at the bottom. **Chose the mountingplate corresponding to your bigger buck converter - the XL4016 or SZBK07** https://github.com/michaelkubina/SpotMicroESP32/tree/master/electronics
 
 ![021 - Chassis](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/021_chassis_sides.png)
 
@@ -505,8 +505,6 @@ Your rear cover is complete.
 ![024 - Mount TFT Screen and Pushbutton](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/024_tft_and_pushbutton_post_exterior.png)
 
 ## Top and bottom Cover ##
-
-**ATTENTION! The bottom cover needs to be overhauled, so we could easily access the balance-charger-cable of the LiPo. In the current configuration we are not even able to mount 2S LiPo's into place!**
 
 | Total Amount | Part |
 |--------------|------|
