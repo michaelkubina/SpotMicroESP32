@@ -78,3 +78,8 @@ This assembly is **not compatible** with the KDY0523-Spotmicro
 | ![Bottom Cover Split Rear Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Bottom_Cover_Split_Rear.png)					| Bottom Cover Split Rear			| 1 | - | 1 | 100% |  26g |
 | ![Bottom Cover Template Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Bottom_Cover%20(Template).png)					| Bottom Cover Template				| - | - | - |    - |    - |
 
+### Miscellanious
+
+| Thumbnail | Name | normal copies | mirrored copies | total amount | infill | total weight |
+|-----------|------|---------------|-----------------|--------------|--------|--------------|
+| ![Servohorn 6 B-Star with 25 teeth for 20mm Servos](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Servohorn_6_B_Star.png)		| Servohorn 6 B-Star				| 12 | - | 12 |  20% |  20g |
