@@ -1,6 +1,11 @@
 ﻿# Parts
 This section gices an overview of all necessary parts and their compatibility to the original KDY0523-Spotmicro. For the assembly please read the [Assembly Guide](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/). You will need at least the screws and nuts from the [Bill of Materials](https://github.com/michaelkubina/SpotMicroESP32/#bill-of-material).
 
+## Mods
+There are some modifications available (e.g. moulds for silicone feet or modifications to use metaldisc servohorns). Take a look into the mods folder, if there is anything of interest or if you have your own modifications, than state a pull request:
+
+[MODS-Section]https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/mods/  
+
 ## Partlist
 The SpotMicroESP32 uses parts, that where redesign from the ground. These are largely incompatible to the original KDY0523-Spotmicro - meaning they are as an assembly not interchangable. This is due to some design decisions, that include the ability to print without support, using less different screw sizes and repositioning screwholes or altering dimensions to achive a more convenient and fluid design. The following list will not only provide informations about the total amount of prints needed (including the amount of mirrored copies), but if its compatible with the original KDY0523-Spotmicro and how many mirrored copies you would need of it.
 

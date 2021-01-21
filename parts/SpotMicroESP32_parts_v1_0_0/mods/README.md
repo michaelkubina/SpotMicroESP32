@@ -2,7 +2,7 @@
 This section gives an overview of all available, publicly shared modifications i am aware of. I cannot guarantee for compatibility of functions -  please consider all of these experimental.
 
 ## Internal Links
-These Mods are available in this repo. If you have your own mods you would like to share here, than please make a pull request.
+These Mods are available in this repo. If you have your own mods you would like to share here, than please make a pull request.  
 
 | Name | Description | Author | Source |
 |------|-------------|--------|--------|
