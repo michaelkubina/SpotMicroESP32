@@ -15,7 +15,7 @@ These Mods are available through other sources.
 
 | Name | Description | Author | Source |
 |------|-------------|--------|--------|
-| SpotMicroESP32 M3 Mod | Modded SpotMicroESP that uses only M3 screws | Projunk (Thingiverse) | https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/mods/rpi_zero_mountingplate |
+| SpotMicroESP32 M3 Mod | Modded SpotMicroESP that uses only M3 screws | Projunk (Thingiverse) | https://www.thingiverse.com/thing:4575753 |
 | SpotMicroESP32 Parametric Stand | A Stand to place your SpotMicroESP32 on | Projunk (Thingiverse) | https://www.thingiverse.com/thing:4604862 |
 
 
