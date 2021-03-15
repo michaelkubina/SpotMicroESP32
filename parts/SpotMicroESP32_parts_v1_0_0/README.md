@@ -52,8 +52,8 @@ The "normal version" copies the dimensions of the original design, which results
 | ![Limb Bottom Shell Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Bottom_Shell.png)								| Limb Bottom Shell Thumbnail		| 2 | 2 | 4 |  20% | 100g |
 | ![Limb Ball Bearing Mount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Ball_Bearing_Mount_long_v4.png)			| Limb Ball Bearing Mount **long**	| 2 | 2 | 4 |  20% |  20g |
 | ![Limb Servohorn Mount Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Limb_Servohorn_Mount_long_v4.png)				| Limb Servohorn Mount **long**		| 2 | 2 | 4 |  20% |  20g |
-| ![Wrist Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Wrist.png)														| #Wrist							| 2 | 2 | 4 |  20% | 104g |
-| ![Wrist Counterpart Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Wrist%20_Counterpart.png)							| #Wrist Counterpiece					| 2 | 2 | 4 |  20% |  36g |
+| ![Wrist Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Wrist.png)														| Wrist							| 2 | 2 | 4 |  20% | 104g |
+| ![Wrist Counterpart Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Wrist%20_Counterpart.png)							| Wrist Counterpiece					| 2 | 2 | 4 |  20% |  36g |
 | ![Shoulder Joint Ball Bearing Pin Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Shoulder_Joint_Ball_Bearing_Pin.png)	| Shoulder Joint Ball Bearing Pin	| 4 | - | 4 |  20% |   4g |
 | ![Foot Tip Thumbnail](https://github.com/michaelkubina/SpotMicroESP32/blob/master/parts/SpotMicroESP32_parts_v1_0_0/images/thumbs/Foot_Tip.png)												| Foot Tip							| 4 | - | 4 |  20% |  24g |
 
