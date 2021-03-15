@@ -18,10 +18,10 @@ You need to make two identical lower legs each for both sides - this means, that
 | 16x | Servo rubber dampeners (should be shipped with your servo) |
 |  |  |
 |  |  |
-|  4x | lower leg (2x right-handed, 2x left-handed) |
-|  4x | lower leg counterpiece (2x right-handed, 2x left-handed) |
-|  4x | ball bearing pin |
-|  4x | foot tips |
+|  4x | [Wrist](./parts/SpotMicroESP32_parts_v1_0_0/README.md#wrist) (2x right-handed, 2x left-handed) |
+|  4x | [Wrist counterpiece](./parts/SpotMicroESP32_parts_v1_0_0/README.md#wrist_counterpiece) (2x right-handed, 2x left-handed) |
+|  4x | [Shoulder Joint Ball Bearing Pin](./parts/SpotMicroESP32_parts_v1_0_0/README.md#ball_bearing_pin) |
+|  4x | [Foot Tip](./parts/SpotMicroESP32_parts_v1_0_0/README.md#foot_tip) |
 |  |  |
 |  |  |
 | 24x | M3 nuts |
