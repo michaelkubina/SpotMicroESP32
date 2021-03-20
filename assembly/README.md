@@ -7,8 +7,8 @@ This document describes the assembly process for the SpotMicroESP32. There are s
 The single most important thing is to test and to calibrate your servos. By calibration i mean to determin the minimum and maximum positions, and what dutycicle results in what actual angle. Don't use any servos, that behave weird in any way, such as: stuttering, grinding noises, clicking noises or which wont turn at least full 180° - you would regret it afterwards and will have to do a lot of disassembling stuff to get it straight. At last it is important, that you position each servo into a specific position, which will be named in the parts-list in each major step. Depending on where it should be mountet, it results in 2x 0° 2x 60°, 2x 120°, 2x 180° and 4x 90°. Make sure you add all the rubber dampeners to your servos, so you could fit the M3 through the mounting holes.
 If you wish to use fabric hoses, make sure you use the smallest and thinest possible. There is just not enough space in these parts to use thick ones. Or simply go with the standard servocable, which could look pretty nice, depending on your color theme.
 
-## Lower Leg ##
-You need to make two identical lower legs each for both sides - this means, that you need two mirrored pieces for the lower leg and lower leg counterpiece. Its important that you extend the servo cable and if you use fabric hoses, to guide it through.
+## Wrist ##
+You need to make two identical wrists each for both sides - this means, that you need two mirrored pieces for the wrist and wrist counterpiece. Its important that you extend the servo cable and if you use fabric hoses, to guide it through.
 
 ### Parts ###
 
@@ -18,10 +18,10 @@ You need to make two identical lower legs each for both sides - this means, that
 | 16x | Servo rubber dampeners (should be shipped with your servo) |
 |  |  |
 |  |  |
-|  4x | lower leg (2x right-handed, 2x left-handed) |
-|  4x | lower leg counterpiece (2x right-handed, 2x left-handed) |
-|  4x | ball bearing pin |
-|  4x | foot tips |
+|  4x | [Wrist](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) (2x right-handed, 2x left-handed) |
+|  4x | [Wrist counterpiece](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) (2x right-handed, 2x left-handed) |
+|  4x | [Shoulder Joint Ball Bearing Pin](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) |
+|  4x | [Foot Tip](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) |
 |  |  |
 |  |  |
 | 24x | M3 nuts |
@@ -30,29 +30,29 @@ You need to make two identical lower legs each for both sides - this means, that
 |  4x | M2 nuts |
 |  4x | M2x8 |
 
-### Lower leg and foot tip ###
+### Wrist and foot tip ###
 
-Insert 2x M3 nuts into their spaces in the lower leg. Hold the foot tip at position and screw with 2x M3x8 the foot tip into place.
+Insert 2x M3 nuts into their spaces in the wrist. Hold the foot tip at position and screw with 2x M3x8 the foot tip into place.
 
-![001 - Lower Leg & Foot Tip](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/001_lower_leg_foot.png)
+![001 - Wrist & Foot Tip](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/001_lower_leg_foot.png)
 
-### Lower leg counterpiece and ball bearing pin ###
+### Wrist counterpiece and ball bearing pin ###
 
-Insert 1x M2 nut into the small space in the lower leg counterpiece. Screw 1x M2x8 through the ball bearing pin and attach it to the lower leg counterpiece.
+Insert 1x M2 nut into the small space in the wrist counterpiece. Screw 1x M2x8 through the ball bearing pin and attach it to the wrist counterpiece.
 
-![002 - Lower Leg Counterpiece & Ball Bearing Pin](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/002_lower_leg_counterpiece_pin.png)
+![002 - Wrist Counterpiece & Ball Bearing Pin](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/002_lower_leg_counterpiece_pin.png)
 
-### Lower leg counterpiece and ball bearing pin ###
+### Wrist counterpiece and ball bearing pin ###
 
-Insert 4x M3 nuts into the small spaces in the lower leg counterpiece. Insert now from above the servo into its pocket in the lower leg counterpiece. Now push both the lower leg counterpiece with the servo and the lower leg with the foot tip together, closing all gaps. Be careful not to loose any M3 nuts and screw both parts together with 4x M3x20 screws.
+Insert 4x M3 nuts into the small spaces in the wrist counterpiece. Insert now from above the servo into its pocket in the wrist counterpiece. Now push both the wrist counterpiece with the servo and the wrist with the foot tip together, closing all gaps. Be careful not to loose any M3 nuts and screw both parts together with 4x M3x20 screws.
 
-![003 - Lower Leg Sandwich](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/003_lower_leg_sandwich.png)
+![003 - Wrist Sandwich](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/003_lower_leg_sandwich.png)
 
-### Lower leg completed ###
+### Wrist completed ###
 
-Your assembled lower leg should look like this one. Repeat it once again for the second left lower leg and assemble the two mirrored (right-handed) right lower legs.
+Your assembled wrist should look like this one. Repeat it once again for the second left wrist and assemble the two mirrored (right-handed) right wrists.
 
-![004 - Lower Leg Complete](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/004_lower_leg_complete.png)
+![004 - Wrist Complete](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/004_lower_leg_complete.png)
 
 ## Upper Leg ##
 You need to make two identical upper legs each for both sides - this means, that you need two mirrored pieces for the upper leg bottom shell, upper leg top shell, servohorn mount and ball bearing mount.
@@ -87,7 +87,7 @@ You need to make two identical upper legs each for both sides - this means, that
 
 ### Servohorn mount ###
 
-You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. **You might consider using M2x6 instead and ditch the need for M2 nuts here completly.** Screw the servohorn into place, using the middle hole on each little arm. Make sure that the two arms of the servohorn are perfectly perpendicular to the lower leg, when mounted to the servogear at 0° resp 180° (depending which leg) and which arm was on top then. This is because the teeth are not an even number and by this not symmetrical which would either result in a gap between the lower and upper leg when resting or in the worst case, the servo could not rest in 0° or 180° position and always stutter thus pulling more current. 
+You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. **You might consider using M2x6 instead and ditch the need for M2 nuts here completly.** Screw the servohorn into place, using the middle hole on each little arm. Make sure that the two arms of the servohorn are perfectly perpendicular to the wrist, when mounted to the servogear at 0° resp 180° (depending which leg) and which arm was on top then. This is because the teeth are not an even number and by this not symmetrical which would either result in a gap between the lower and upper leg when resting or in the worst case, the servo could not rest in 0° or 180° position and always stutter thus pulling more current. 
 
 ![005 - Servohorn & Servohornmount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/005_servohornmount_pre.png)
 
@@ -95,7 +95,7 @@ You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the m
 
 ### Attach Servohorn mount ###
 
-Position the assembled servohorn mount to the lower leg and make sure that the right arm ist on top. Otherwise remove the servohorn and turn it around as long as it sits perfectly perpendicular and attach it again. Screw the whole servohornmount with a M3x8 to the servo gear.
+Position the assembled servohorn mount to the wrist and make sure that the right arm ist on top. Otherwise remove the servohorn and turn it around as long as it sits perfectly perpendicular and attach it again. Screw the whole servohornmount with a M3x8 to the servo gear.
 
 ![006 - Servohornmount & Servo Gear](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/006_servohornmount_pre.png)
 
@@ -105,7 +105,7 @@ Position the assembled servohorn mount to the lower leg and make sure that the r
 
 ### Attach Ballbearing mount ###
 
-Push your 625ZZ Ball Bearing into the Ballbearing Mount (it should be are really tight fit). Afterwards push the ballbearing mount on the ballbearing pin of the lower leg.
+Push your 625ZZ Ball Bearing into the Ballbearing Mount (it should be are really tight fit). Afterwards push the ballbearing mount on the ballbearing pin of the wrist.
 
 ![007 - Ballbearing mount](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/007_ballbearingmount_pre.png)
 
@@ -123,11 +123,11 @@ Put four M3 nuts in the holes by the servo-pocket and push the servo into place.
 
 ### Route Cables through Upper Leg Top Shell ###
 
-This part is a bit tricky, especialy when using fabric hoses for the servocables, since the space between the shells is very limited. Route your extended servocable from the lower leg through the front hole of the top shell. Pull after that the servocable of the bottom shell servo through the hole as well. 
+This part is a bit tricky, especialy when using fabric hoses for the servocables, since the space between the shells is very limited. Route your extended servocable from the wrist through the front hole of the top shell. Pull after that the servocable of the bottom shell servo through the hole as well. 
 
 ![009 - Top Shell & Bottom Shell](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/009_topshell_pre.png)
 
-Then push both shells toghether and at the same time pull the cables carfully further through the hole. Make sure the servocable from the lower leg goes into both shells through the gap between both shells and is further guided underneath the top shell in the groove specially made for it (marked green). You have also to watch out not to lose the two M3 nuts next to the servo.
+Then push both shells toghether and at the same time pull the cables carfully further through the hole. Make sure the servocable from the wrist goes into both shells through the gap between both shells and is further guided underneath the top shell in the groove specially made for it (marked green). You have also to watch out not to lose the two M3 nuts next to the servo.
 
 ![009 - Top Shell & Bottom Shell](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/009_topshell_mid_frontview.png)
 
@@ -153,7 +153,7 @@ Now with both shell attached to each other and the servocables of the lower and 
 
 ![011 - Preparations before completion](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/011_prepare_completion_post.png)
 
-Place then both shells on the lower leg so that the screwholes in the servohorn and ballbearing mounts align with those in the shells. Use four M3x20 screws, to screw everything together to complete the upper leg.
+Place then both shells on the wrist so that the screwholes in the servohorn and ballbearing mounts align with those in the shells. Use four M3x20 screws, to screw everything together to complete the upper leg.
 
 ![012 - Completion of the Upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/012_completion_pre.png)
 
@@ -167,7 +167,7 @@ This is also the robots legs resting position, which results in the legs laying 
 
 ![012 - Completion of the Upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/012_completion_post_sideview.png)
 
-For the robots normal standing position the lower legs servo is at 90° while the upper legs servo is at 120° or 60°, depending which leg.
+For the robots normal standing position the wrists servo is at 90° while the upper legs servo is at 120° or 60°, depending which leg.
 
 ![012 - Completion of the Upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/012_completion_post_standing_frontview.png)
 
@@ -231,7 +231,7 @@ Now insert 4x M3 nuts into to pockets in the base of the Servomount and screw th
 
 ### Attach Shoulder Joint to upper Leg ###
 
-For the robots normal standing position the lower legs servo is at 90° while the upper legs servo is at 120° (left legs) or 60° (right legs), depending which leg. Make sure you have actually positioned your servos correctly before, **otherwise you should do the movement befor assembling further**. When mounting the Shoulder Joint you wont align it to the upper leg along the upper star, but along the first to the right (left legs) resp. first to the left (right legs). Since the servohorn has six arms, each arm means an increase of 60°. For the left legs use this picture as an orientation.
+For the robots normal standing position the wrists servo is at 90° while the upper legs servo is at 120° (left legs) or 60° (right legs), depending which leg. Make sure you have actually positioned your servos correctly before, **otherwise you should do the movement befor assembling further**. When mounting the Shoulder Joint you wont align it to the upper leg along the upper star, but along the first to the right (left legs) resp. first to the left (right legs). Since the servohorn has six arms, each arm means an increase of 60°. For the left legs use this picture as an orientation.
 
 ![016 - Attach Shoulder Joint to upper Leg](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/016_shoulder_joint_leg_angles.png)
 
@@ -267,7 +267,7 @@ With the front left (FL) leg finished, rebuild the rear left (RL) leg with the s
 
 ![019 - Overview of all of the four legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_left_legs.png)
 
-The same applies to the front right (FR) and rear right (RR) leg, with both servo gears facing outwards. Use for the right sided legs also the mirrored copies of the lower and upper leg parts. Keep in mind, that you have set the right angles for your servos prior to assembly, with the servos in the shoulder joint being at 90°, the servos in the upper legs at 60° and the servos in the lower legs at 0°.
+The same applies to the front right (FR) and rear right (RR) leg, with both servo gears facing outwards. Use for the right sided legs also the mirrored copies of the lower and upper leg parts. Keep in mind, that you have set the right angles for your servos prior to assembly, with the servos in the shoulder joint being at 90°, the servos in the upper legs at 60° and the servos in the wrists at 0°.
 
 ![019 - Overview of all of the four legs](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/019_right_legs.png)
 
