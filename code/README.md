@@ -47,7 +47,7 @@ For a complete Installation you will need to install:
 	1. install the ESP-IDF Extension from the VSCode Marketplace. Use the Express Install as mentioned here: [VSCode ESP-IDF Extension Github](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/SETUP.md#setup-wizard)
 		1. update some of your *system variables*
 			1. add ";%IDF_PATH%\tools" to PATH
-			1. add a new variable named "IDF-PATH" with the value "C:\Users\_INSERT_YOUR_USER_DIRECTORY_\esp\esp-idf"
+			1. add a new variable named "IDF_PATH" with the value "C:\Users\INSERT_YOUR_USER_DIRECTORY\esp\esp-idf"
 	1. add the path to the MinGW C-Standard Libraries Headers to your C/C++ configuration in VSCode
 		1. Press F1 for the Command Menu
 		1. type and choose "C/C++: Edit Configuration (UI)" and navigate to the "advanced settings" at the bottom
