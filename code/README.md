@@ -5,6 +5,35 @@
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
 https://github.com/maartenweyn/SpotMicro_ESP32
 
+### Quickstart Maartens Firmware ###
+
+* calibrate your servos (do this before assembly, otherwise you have more work to do). You can find here a [quick explanation of how to achieve this](https://github.com/michaelkubina/SpotMicroESP32/tree/master/assembly#servo-calibration).
+* install the [ESP-IDF in VSCode](https://github.com/michaelkubina/SpotMicroESP32/tree/master/code#esp-idf) for the firmware-developement and get [Cordova](https://github.com/maartenweyn/SpotMicro_ESP32/tree/master/code/cordova) for the app-developement running
+* clone [maartens firmware-repo](https://github.com/maartenweyn/SpotMicro_ESP32/tree/master/code/esp-idf/ik_test) and 
+	* account for the missing relay in his code. You can overcome the relay being in the way in two ways:
+		* connect NC instead of NO (always active after power-up, if no signal to the relay) to your PCA9685 V+ (terminal block) and switch it back, once you have a solid code-base that accounts for it.
+		* OR do the code-thing right away and leave it as it is...like this:
+			**config.h**
+			```
+			#define RELAY_IO    27
+			```
+
+			**main.c -> void app_main()**
+			
+			```
+			...
+			gpio_pad_select_gpio(RELAY_IO);
+			gpio_set_direction(RELAY_IO, GPIO_MODE_OUTPUT);
+			gpio_set_level(RELAY_IO,1); // 1 = on, 0 = off
+			```
+	* clone the [esp-dsp (digital signal processing)](https://github.com/espressif/esp-dsp) **component** into maartens repo's corresponding component folder
+	* compile and flash
+* compile the cordova app and flash onto your android phone (or iphone, but i dont own an iphone and cant help here)
+* install [arduino ide](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+	* get this [firmware for your ESP32-CAM](https://github.com/easytarget/esp32-cam-webserver)
+	* add your local wifi credentials to the configuration
+	* flash the ESP32_CAM with this firmware and access the live-stream/cam interface via your webbrowser
+
 ## Firmware by Guna ##
 
 An walking gait implementation and voice-commanding was achieved by Guna R. from the slacks #spotmicro-esp32 channel, whis is build upon Maartens software (see Repo above). You definitly have to take a look there as well and contribute:
