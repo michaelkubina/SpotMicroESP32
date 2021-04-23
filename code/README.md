@@ -1,7 +1,11 @@
 ﻿# Programming #
 
+## Firmware and App by Maarten Weyn ##
+
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
 https://github.com/maartenweyn/SpotMicro_ESP32
+
+## Firmware by Guna ##
 
 An walking gait implementation and voice-commanding was achieved by Guna R. from the slacks #spotmicro-esp32 channel, whis is build upon Maartens software (see Repo above). You definitly have to take a look there as well and contribute:
 https://github.com/cholan2100/ceasar
@@ -9,7 +13,7 @@ https://github.com/cholan2100/ceasar
 
 **Work-in-Progress : still a lot to do**
 
-This section currently contains some basic test-programs for servo-calibration and circuit-/module-tests.
+This section currently contains some basic test-programs for servo-calibration and circuit-/module-tests. 
 
 ## Arduino IDE ##
 
