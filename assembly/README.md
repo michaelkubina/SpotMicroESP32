@@ -4,8 +4,42 @@ This document describes the assembly process for the SpotMicroESP32. There are s
 **Important! Read the assembly guide at least once, so you are familiar with when to use mirrored parts or which servo should be mounted with which actual gear-position.**
 
 ## Prerequisites ##
-The single most important thing is to test and to calibrate your servos. By calibration i mean to determin the minimum and maximum positions, and what dutycicle results in what actual angle. Don't use any servos, that behave weird in any way, such as: stuttering, grinding noises, clicking noises or which wont turn at least full 180° - you would regret it afterwards and will have to do a lot of disassembling stuff to get it straight. At last it is important, that you position each servo into a specific position, which will be named in the parts-list in each major step. Depending on where it should be mountet, it results in 2x 0° 2x 60°, 2x 120°, 2x 180° and 4x 90°. Make sure you add all the rubber dampeners to your servos, so you could fit the M3 through the mounting holes.
+The single most important thing is to test and to calibrate your servos. By calibration i mean to determin the minimum and maximum positions, and what dutycicle results in what actual angle. Don't use any servos, that behave weird in any way, such as: stuttering, grinding noises, clicking noises or which wont turn at least full 180° - you would regret it afterwards and will have to do a lot of disassembling stuff to get it straight. At last it is important, that you position each servo into a specific position, which will be named in the parts-list in each major step. Depending on where it should be mounted, it results in 2x 0° 2x 60°, 2x 120°, 2x 180° and 4x 90°. Make sure you **add all the rubber dampeners** to your servos, so you could fit the M3 through the mounting holes.
 If you wish to use fabric hoses, make sure you use the smallest and thinest possible. There is just not enough space in these parts to use thick ones. Or simply go with the standard servocable, which could look pretty nice, depending on your color theme.
+
+### Servo Calibration ###
+
+This section gives a brief explenation, of what is meant with servo calibration. You can use the values determined by this right away with [Maarten Weyns firmware](https://github.com/michaelkubina/SpotMicroESP32/tree/master/code#firmware-and-app-by-maarten-weyn).
+
+The servos you buy have most likely a larger overall movement range than the stated 180° or 270°. When doing the calibration steps, we are interested in several things:
+
+- what is the minimum pwm signal, at which the servo starts actually moving?
+- what is the maximum pwm singal, at which the servos actually stops its movement?
+- what is the overall angle the servohorn did rotate between the minimum and maximum pwm singals? (**overall** movement range)
+- what range in the overall movement range should represent our wanted 180° movement range with its corresponding PWM-values? (movement range)
+- what ratio is there between the pwm-range and the movement angle? (conversion factor)
+
+#### Example ####
+
+Lets say you have a servo and feed it manually PWM-values, that you can easily increasy by 5, 10, 50, 100 or so. Also you have added a servohorn that allows you to see how far it did rotate in degree. This allows for gathering all informations needed for this calibration:
+
+At a hypothetical PWM-value at 12 Bit resolution at a PWM-frequency of *50Hz(!)*:
+- at 0 to 74 nothing happens and the servohorn does not want to move at all
+- at 75 your servohorn actually moves...and stops at a certain position -> this is the minimum position of its **overall** movement range
+- at 275 your servohorn did move forward exactly a quarter rotation -> so seen from the minimum of the **overall** movement range we have now progressed 90° further
+- at 475 your servorhorn did an additional quarter rotation -> so we have now progressed even 180°
+- now you increase the PWM-value even more and you see, that up to 510 your servohorn still rotates...and it stops at around 195°
+- 511 to 4095 nothing happens anymore
+
+What is happening here?
+
+You have determined, that the minimum PWM-value that does anything is at 75, the maximum PWM-value that does anything is at 510. This results in an **overall** movement range of 195°, which is (in this example) 15° more than the 180° from the datasheet. Within this **overall** range we can now pick a movement range of 180°. Conveniently we would give ourselves a buffer before and after it (because the **overall** movement range allows for it), thus making the golden middle our 90° mark (= 97,5° from the **overall** movement range) and calculating or (even better) testing for the 0°/180° marks seen from there - this could be something like a PWM-Value of 92 (=7,5° of the **overall** movement range) and 492 (=187.5° of the **overall** movement range). This buffer allows for accounting for wear-off of the servos by software, instead of disassembling the robot to get the servos straight again.
+
+So this has already answered the first four questions, about the PWM-Values and the angles those set the servo to. The last quesion about the conversion factor is just some simple maths and gives the idea of how much PWM-value increase is needed to rotate the servohorn by 1°. Like this:
+
+- (510-75)/195° = 2.23 (conversion factor)
+- (2.23 x 7,5°) + 75 ~= 92 (0° mark with a buffer of 7,5° before)
+- (2.23 x 7,5°) + 475 ~= 492 (180° mark with a buffer of 7,5° after)
 
 ## Wrist ##
 You need to make two identical wrists each for both sides - this means, that you need two mirrored pieces for the wrist and wrist counterpiece. Its important that you extend the servo cable and if you use fabric hoses, to guide it through.
