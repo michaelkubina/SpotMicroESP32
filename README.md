@@ -1,16 +1,16 @@
 # SpotMicroESP32
 
-My take on a SpotMicro with an optimized design for supportfree 3D-printing utilizing an ESP32-DevKitC. This is still a Work-in-Progress!
+My take on a SpotMicro with an optimized design for supportfree 3D-printing and integration of an ESP32-DevKitC. This is still a Work-in-Progress!
 
 You can find the 3D-printing parts on Thingiverse as well: https://www.thingiverse.com/thing:4559827/files
 
-Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)
-Or joing the Discord-Channel for this remix: https://discord.gg/s8F6xHGk9Y (#spotmicro-esp32)
+- Join the Discord-Channel for this remix: https://discord.gg/s8F6xHGk9Y (#spotmicro-esp32)
+- ~Join the Slack-Channel for this remix - discuss any topics regarding this design: spotmicroai.slack.com (#spotmicro-esp32)~ Due to no active subscription there is no possibility to browse through older posts. This is why a lot of people moved to the discord channel.
 
-This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
+This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. I advice to take a look into his Repository as well, as this currently my preferred codebase:
 https://github.com/maartenweyn/SpotMicro_ESP32
 
-An walking gait implementation and voice-commanding was achieved by Guna R. from the slacks #spotmicro-esp32 channel, whis is build upon Maartens software (see Repo above). You definitly have to take a look there as well:
+An walking gait implementation and voice-commanding was achieved by Guna R. from the slacks #spotmicro-esp32 channel, whis is build upon Maartens software (see Repo above). You definitly have to take a look there as well - but it seems the repo is incomplete and missing the app:
 https://github.com/cholan2100/ceasar
 
 Look also at the GitLab pages for the general SpomicroAI community, where you can find different models and resources: https://gitlab.com/custom_robots/spotmicroai
@@ -18,21 +18,23 @@ Look also at the GitLab pages for the general SpomicroAI community, where you ca
 ![SpotMicroESP32](https://github.com/michaelkubina/SpotMicroESP32/blob/master/spotmicroESP32.jpg)
 
 ## Note of thanks
-I want to thank Deok-yeon Kim (KDY0523) for his beautyfull and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
+I want to thank Deok-yeon Kim (KDY0523) for his beautyful and well thought out design of the SpotMicro, without whom my derivate would not have been possible. You can find his original Design here on Thingiverse: https://www.thingiverse.com/thing:3445283
 
 Him sharing the files with an open licence, made it possible to let it grow a community around it. This is why i want to reference to them as well - the SpotMicroAI Community: https://spotmicroai.readthedocs.io/en/latest/
 
 ## Preface
-This is a work-in-progress, with rather loose milestones. For 2020 there were only two goals
-- ~to redesign the original parts, so that they could be printed without any support~
-- ~to make a circuitry for all sensors and parts, that possibly would fit and be considere necessary~ (currently sketching it in kicad and fritzing! coming soon!)
+This is a work-in-progress, with rather loose milestones.
+
+For 2020 there are two goals:
+- ~to redesign the original parts, so that they could be printed without any support~ (done)
+- ~to make a circuitry for all sensors and parts, that possibly would fit and be considered necessary~ (done)
+
+For 2021 there are two main goals and one optional goal:
+- to write my own firmware with the [ESP-IDF](https://github.com/michaelkubina/SpotMicroESP32/tree/master/code#esp-idf), that integrates/utilizes all sensors and modules except the ESP-CAM which needs its own firmware (in progress)
+- to write a smartphone App in Flutter, that connects to the firmware and reads from/writes to the robot (in progress)
+- to implement the inverse kinematics (optional goal)
 
 This repository is currently just my hobby and as such, it will have its own pace. This being said, i am still happy about any questions, collaborations, suggestions, ideas, forks and what else comes to your mind. I want you to participate, because i think there are a lot of things, that you could dig into.
-
-## Coming soon...
-- ~~Mountingplate for the ciruitry - FreeCAD and STL (in progress)~~
-- more Template FreeCAD-Files for your own modifications
-- KiCAD or Fritzing circuit diagrams
 
 ## Sections
 
