@@ -18,6 +18,8 @@ These Mods are available through other sources.
 |------|-------------|--------|--------|
 | SpotMicroESP32 M3 Mod | Modded SpotMicroESP that uses only M3 screws | Projunk (Thingiverse) | https://www.thingiverse.com/thing:4575753 |
 | SpotMicroESP32 Parametric Stand | A Stand to place your SpotMicroESP32 on | Projunk (Thingiverse) | https://www.thingiverse.com/thing:4604862 |
+| SpotMicroESP32 Parametric Shoulder Reinforcement | A reinforcement mod to give the shoulders and therefore the servos more stability | Projunk (Thingiverse) | https://www.thingiverse.com/thing:4817676 |
+| SpotMicroESP32 Parametric Shoulder Reinforcement with metaldisc servohorn mod | A mod of the reinforced shoulders mod, that uses the metaldisc servohorn instead of the 6B-Star | omtek (modulo1) (Discord) | https://www.thingiverse.com/thing:4873790 |
 
 
 
