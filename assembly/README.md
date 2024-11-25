@@ -107,10 +107,10 @@ You need to make two identical upper legs each for both sides - this means, that
 |  4x | 625zz ball bearings without flange |
 |  |  |
 |  |  |
-|  4x | upper leg top shell (2x right-handed, 2x left-handed) |
-|  4x | upper leg bottom shell (2x right-handed, 2x left-handed) |
-|  4x | servohorn mount **long version!** (2x right-handed, 2x left-handed) |
-|  4x | ball bearing mount **long version!** (2x right-handed, 2x left-handed) |
+|  4x | [Limb Top Shell](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) (2x right-handed, 2x left-handed) |
+|  4x | [Limb Bottom Shell](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) (2x right-handed, 2x left-handed) |
+|  4x | [Limb Servohorn Mount](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) **long version!** (2x right-handed, 2x left-handed) |
+|  4x | [Limb Ball Bearing Mount](../parts/SpotMicroESP32_parts_v1_0_0/README.md#leg) **long version!** (2x right-handed, 2x left-handed) |
 |  |  |
 |  |  |
 | 32x | M3 nuts |
@@ -224,9 +224,9 @@ You need to make two identical Shoulder Joints for both sides - this means, that
 |  4x | FSH6S Servohorn |
 |  |  |
 |  |  |
-|  4x | Shoulderjoint Servomount (2x right-handed, 2x left-handed) |
-|  4x | Shoulderjoint Servohorn Cap |
-|  4x | ball bearing Pin |
+|  4x | [Shoulder Joint Servomount](../parts/SpotMicroESP32_parts_v1_0_0/README.md#shoulder-joints) (2x right-handed, 2x left-handed) |
+|  4x | [Shoulder Joint Servohorn Cap](../parts/SpotMicroESP32_parts_v1_0_0/README.md#shoulder-joints) |
+|  4x | [Shoulder Joint Ball Bearing Pin](../parts/SpotMicroESP32_parts_v1_0_0/README.md#shoulder-joints) |
 |  |  |
 |  |  |
 | 36x | M3 nuts |
@@ -320,7 +320,7 @@ When all of your legs are assembled the should look like this, with the front le
 |  4x | FSH6S Servohorn |
 |  |  |
 |  |  |
-|  2x | Outer Shoulder |
+|  2x | [Outer Shoulder](../parts/SpotMicroESP32_parts_v1_0_0/README.md#chassis)|
 |  |  |
 |  |  |
 |  4x | M3x8 |
@@ -358,11 +358,11 @@ The front and rear legs with the shoulder should look like this.
 |  4x | 625zz ball bearings without flange |
 |  |  |
 |  |  |
-|  2x | Inner Shoulder |
-|  2x | Top Shoulder |
-|  2x | Bottom Shoulder |
-|  2x | Chassis Side |
-|  1x | Circuitry Mountingplate **(choose either the XL4016 or SZBK07 type, depending on your chosen larger buck-converter)** |
+|  2x | [Inner Shoulder](../parts/SpotMicroESP32_parts_v1_0_0/README.md#chassis) |
+|  2x | [Top Shoulder](../parts/SpotMicroESP32_parts_v1_0_0/README.md#chassis) |
+|  2x | [Bottom Shoulder](../parts/SpotMicroESP32_parts_v1_0_0/README.md#chassis) |
+|  2x | [Chassis Side](../parts/SpotMicroESP32_parts_v1_0_0/README.md#chassis) |
+|  1x | [Circuitry Mountingplate](../parts/SpotMicroESP32_parts_v1_0_0/README.md#chassis) **(choose either the XL4016 or SZBK07 type, depending on your chosen larger buck-converter)** |
 |  |  |
 |  |  |
 | 24x | M3 nuts |
@@ -426,10 +426,10 @@ When finished, your SpotMicroESP32 should look like this.
 |  2x | HC-SR04 Ultrasonic Sensor |
 |  |  |
 |  |  |
-|  1x | Front Cover |
-|  1x | Sensormount ESP32-CAM|
-|  1x | Cameramount ESP32-CAM|
-|  1x | Cameramount Counterpiece ESP32-CAM|
+|  1x | [Front Cover Optimized](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull) |
+|  1x | [Sensormount for the ESP32-CAM](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull) |
+|  1x | [Cameramount for the ESP32-CAM](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull) |
+|  1x | [Cameramount Counterpiece for the ESP32-CAM](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull) |
 |  |  |
 |  |  |
 |  4x | M3 nuts |
@@ -510,13 +510,15 @@ Your finished head-unit should look like this.
 
 ## Tail ##
 
+The following section needs to be redone as the referenced piece is currently deprecated 😅
+
 | Total Amount | Part |
 |--------------|------|
 |  1x | 1,8" TFT with ST7735 with SD-Card  |
 |  1x | Push Button (latching, **not momentary**) |
 |  |  |
 |  |  |
-|  1x | Rear Cover Long for the 1.8" TFT with SD-Card|
+|  1x | [Rear Cover Shell Longer Version](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull)|
 |  |  |
 |  |  |
 |  4x | M3 Nuts |
@@ -542,10 +544,10 @@ Your rear cover is complete.
 
 | Total Amount | Part |
 |--------------|------|
-|  1x | Bottom Cover Front **do not use yet! See note above!** |
-|  1x | Bottom Cover Rear **do not use yet! See note above!** |
-|  1x | Top Cover Front  |
-|  1x | Top Cover Rear  |
+|  1x | [Bottom Cover Split Front](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull) **do not use yet! See note above!** |
+|  1x | [Bottom Cover Split Rear](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull) **do not use yet! See note above!** |
+|  1x | [Top Cover Split Front](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull)  |
+|  1x | [Top Cover Split Rear with OLED](../parts/SpotMicroESP32_parts_v1_0_0/README.md#hull)  |
 |  |  |
 |  |  |
 |  8x | M3 Nuts |
