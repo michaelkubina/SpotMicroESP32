@@ -1,5 +1,10 @@
 ﻿# Programming #
 
+## Firmware and Control by Blacksheep909 ##
+
+The Discord user Blacksheep created a impressive fork of this project, that utilizes a custom designed PCB for component placement and a FSI6 remote control in order to operate the robot. The codebase implements the inverse kinematics and even walking gait for it. Since its packed as an arduino project, its simpler to get started with it then with the ESP-IDF. You can find the repo here:
+https://github.com/Blacksheep909/SpotMicroESP32-Nitro-Fork/tree/master
+
 ## Firmware and App by Maarten Weyn ##
 
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
