@@ -5,6 +5,11 @@
 The Discord user Blacksheep created a impressive fork of this project, that utilizes a custom designed PCB for component placement and a FSI6 remote control in order to operate the robot. The codebase implements the inverse kinematics and even walking gait for it. Since its packed as an arduino project, its simpler to get started with it then with the ESP-IDF. You can find the repo here:
 https://github.com/Blacksheep909/SpotMicroESP32-Nitro-Fork/tree/master
 
+## Firmware and Build by runeharlyk ##
+
+The SpotMicro-Leika project sources different SpotMicro projects and combines them into a feature-rich build. It offers an FreeRTOS implementation, is under active development and has the inverse kinematics and two gaits implemented. You should definetly check it out:
+https://github.com/runeharlyk/SpotMicroESP32-Leika
+
 ## Firmware and App by Maarten Weyn ##
 
 This Project currently lacks the whole programming/software part. Luckily Maarten Weyn already made the inverse kinematics work and wrote also an Smartphone App for simple Control of this Robot via BLE. Take a look into his Repository as well:
